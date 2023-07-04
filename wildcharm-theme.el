@@ -29,7 +29,6 @@
 
 (let ((classTC '((class color) (min-colors 257)))
       (class256 '((class color) (min-colors 256)))
-      (class16 '((class color) (min-colors 16)))
       (classTTY '((type tty)))
       (fg "#d0d0d0") (bg "#121212")
       (black "#000000")(darkgrey "#808080")
