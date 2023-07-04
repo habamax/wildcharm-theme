@@ -1,7 +1,9 @@
-;;; wildcharm-light-theme.el --- port of vim-wildcharm colorscheme -*- lexical-binding: t; -*-
+;;; wildcharm-light-theme.el --- Port of vim-wildcharm colorscheme -*- lexical-binding: t; -*-
 
 ;; Author: Maxim Kim <habamax@gmail.com>
 ;; URL: https://github.com/habamax/wildcharm-theme
+;; Package-Requires: ((emacs "24.1"))
+;; Package-Version: 0.2
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
