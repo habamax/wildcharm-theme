@@ -18,7 +18,7 @@
 
 ;;; Commentary:
 
-;; Contrast light emacs theme.
+;; Contrast light Emacs theme.
 ;; - Port of the light background vim-wildcharm colorscheme.
 ;; - Should look mostly the same in GUI and TUI with 256 colors support.
 
@@ -927,9 +927,7 @@
    `(tempel-field
      ((,class256 (:background ,diff-added-bg))))
    `(tempel-form
-     ((,class256 (:background unspecified))))
-
-   ))
+     ((,class256 (:background unspecified))))))
 
 ;;;###autoload
 (when load-file-name
