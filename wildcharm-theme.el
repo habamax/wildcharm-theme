@@ -323,7 +323,7 @@
    ;; edmacro
    `(edmacro-label
      ((,class256 (:foreground ,bright-blue :weight bold))))
-   
+
    ;; org
    `(org-meta-line
      ((,class256 (:foreground ,darkgrey))))
@@ -831,6 +831,10 @@
      ((,class256 (:inherit custom-button))))
    `(eww-form-file
      ((,class256 (:inherit custom-button))))
+   `(eww-valid-certificate
+     ((,class256 (:foreground ,green))))
+   `(eww-invalid-certificate
+     ((,class256 (:foreground ,red))))
 
    ;; emms
    `(emms-playlist-selected-face
