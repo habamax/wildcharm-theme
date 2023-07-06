@@ -49,11 +49,11 @@
       (header-line "#d7d7d7")
       (hl-line "#eeeeee")
       (block "#eeeeee")
-      (diff-added-bg "#d7ffd7")(diff-refine-added-bg "#afd7af")
+      (diff-added-bg "#afd7af")(diff-refine-added-bg "#d7ffd7")
       (diff-added-fg "#005f00")
-      (diff-removed-bg "#ffd7d7")(diff-refine-removed-bg "#d7afaf")
+      (diff-removed-bg "#d7afaf")(diff-refine-removed-bg "#ffd7d7")
       (diff-removed-fg "#5f0000")
-      (diff-changed-bg "#ffffd7")(diff-refine-changed-bg "#d7d7af")
+      (diff-changed-bg "#d7d7af")(diff-refine-changed-bg "#ffffd7")
       (diff-changed-fg "#5f5f00"))
 
   (custom-theme-set-faces
