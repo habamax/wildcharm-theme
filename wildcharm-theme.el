@@ -52,11 +52,14 @@
       (hl-line "#3a3a3a")
       (block "#1c1c1c")
       (diff-added-bg "#3f4f3f")(diff-added-bg-tty "#005f00")
-      (diff-refine-added-bg "#3f6f4f")(diff-refine-added-bg-tty "#005f5f")
+      (diff-refine-added-bg "#3f6f4f")(diff-refine-added-bg-tty "#00875f")
       (diff-added-fg "#afffaf")
       (diff-removed-bg "#4f3f3f")(diff-removed-bg-tty "#5f0000")
       (diff-refine-removed-bg "#6f4f3f")(diff-refine-removed-bg-tty "#870000")
-      (diff-removed-fg "#ffd7d7"))
+      (diff-removed-fg "#ffd7d7")
+      (diff-changed-bg "#4f4f3f")(diff-changed-bg-tty "#5f5f00")
+      (diff-refine-changed-bg "#4f4f3f")(diff-refine-changed-bg-tty "#875f00")
+      (diff-changed-fg "#ffffd7"))
 
   (custom-theme-set-faces
    'wildcharm
@@ -649,6 +652,38 @@
      ((,class256 (:foreground ,darkgrey))))
    `(magit-log-date
      ((,class256 (:foreground ,darkgrey))))
+
+   ;; ediff
+   `(ediff-current-diff-A
+     ((,classTC (:background ,diff-removed-bg))
+      (t (:background ,diff-removed-bg-tty))))
+   `(ediff-current-diff-B
+     ((,classTC (:background ,diff-added-bg))
+      (t (:background ,diff-added-bg-tty))))
+   `(ediff-current-diff-C
+     ((,classTC (:background ,diff-changed-bg))
+      (t (:background ,diff-changed-bg-tty))))
+   `(ediff-fine-diff-A
+     ((,classTC (:background ,diff-refine-removed-bg :foreground ,diff-removed-fg))
+      (t (:background ,diff-refine-removed-bg-tty :foreground ,diff-removed-fg))))
+   `(ediff-fine-diff-B
+     ((,classTC (:background ,diff-refine-added-bg :foreground ,diff-added-fg))
+      (t (:background ,diff-refine-added-bg-tty :foreground ,diff-added-fg))))
+   `(ediff-fine-diff-C
+     ((,classTC (:background ,diff-refine-changed-bg :foreground ,diff-changed-fg))
+      (t (:background ,diff-refine-changed-bg-tty :foreground ,diff-changed-fg))))
+   `(ediff-even-diff-A
+     ((,class256 (:background ,grey2))))
+   `(ediff-even-diff-B
+     ((,class256 (:background ,grey2))))
+   `(ediff-even-diff-C
+     ((,class256 (:background ,grey2))))
+   `(ediff-odd-diff-A
+     ((,class256 (:background ,grey2))))
+   `(ediff-odd-diff-B
+     ((,class256 (:background ,grey2))))
+   `(ediff-odd-diff-C
+     ((,class256 (:background ,grey2))))
 
    ;; smerge
    `(smerge-lower
