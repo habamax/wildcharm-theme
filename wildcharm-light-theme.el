@@ -955,6 +955,29 @@
    `(rainbow-delimiters-depth-9-face
      ((,class256 (:foreground ,bright-yellow))))
 
+   ;; rst
+   `(rst-level-1
+     ((,class256 (:background unspecified :foreground ,black :weight bold))))
+   `(rst-level-2
+     ((,class256 (:background unspecified :foreground ,black :weight bold))))
+   `(rst-level-3
+     ((,class256 (:background unspecified :foreground ,black :weight bold))))
+   `(rst-level-4
+     ((,class256 (:background unspecified :foreground ,black :weight bold))))
+   `(rst-level-5
+     ((,class256 (:background unspecified :foreground ,black :weight bold))))
+   `(rst-level-6
+     ((,class256 (:background unspecified :foreground ,black :weight bold))))
+   `(rst-literal
+     ((,class256 (:foreground ,magenta))))
+   `(rst-directive
+     ((,class256 (:foreground ,purple))))
+   `(rst-block
+     ((,class256 (:foreground ,red))))
+   `(rst-definition
+     ((,class256 (:foreground ,green))))
+
+   ;; tempel
    `(tempel-default
      ((,class256 (:background ,diff-added-bg))))
    `(tempel-field
