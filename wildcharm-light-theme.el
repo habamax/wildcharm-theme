@@ -54,7 +54,9 @@
       (diff-removed-bg "#d7afaf")(diff-refine-removed-bg "#ffd7d7")
       (diff-removed-fg "#5f0000")
       (diff-changed-bg "#d7d7af")(diff-refine-changed-bg "#ffffd7")
-      (diff-changed-fg "#5f5f00"))
+      (diff-changed-fg "#5f5f00")
+      (diff-ancestor-bg "#afafd7")(diff-refine-ancestor-bg "#d7d7ff")
+      (diff-ancestor-fg "#00005f"))
 
   (custom-theme-set-faces
    'wildcharm-light
@@ -647,23 +649,31 @@
      ((,class256 (:background ,diff-added-bg))))
    `(ediff-current-diff-C
      ((,class256 (:background ,diff-changed-bg))))
+   `(ediff-current-diff-Ancestor
+     ((,class256 (:background ,diff-ancestor-bg))))
    `(ediff-fine-diff-A
      ((,class256 (:background ,diff-refine-removed-bg :foreground ,diff-removed-fg))))
    `(ediff-fine-diff-B
      ((,class256 (:background ,diff-refine-added-bg :foreground ,diff-added-fg))))
    `(ediff-fine-diff-C
      ((,class256 (:background ,diff-refine-changed-bg :foreground ,diff-changed-fg))))
+   `(ediff-fine-diff-Ancestor
+     ((,class256 (:background ,diff-refine-ancestor-bg :foreground ,diff-ancestor-fg))))
    `(ediff-even-diff-A
      ((,class256 (:background ,grey1))))
    `(ediff-even-diff-B
      ((,class256 (:background ,grey1))))
    `(ediff-even-diff-C
      ((,class256 (:background ,grey1))))
+   `(ediff-even-diff-Ancestor
+     ((,class256 (:background ,grey1))))
    `(ediff-odd-diff-A
      ((,class256 (:background ,grey1))))
    `(ediff-odd-diff-B
      ((,class256 (:background ,grey1))))
    `(ediff-odd-diff-C
+     ((,class256 (:background ,grey1))))
+   `(ediff-odd-diff-Ancestor
      ((,class256 (:background ,grey1))))
 
    ;; smerge

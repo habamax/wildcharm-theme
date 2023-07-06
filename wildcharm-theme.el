@@ -58,8 +58,11 @@
       (diff-refine-removed-bg "#6f4f3f")(diff-refine-removed-bg-tty "#870000")
       (diff-removed-fg "#ffd7d7")
       (diff-changed-bg "#4f4f3f")(diff-changed-bg-tty "#5f5f00")
-      (diff-refine-changed-bg "#4f4f3f")(diff-refine-changed-bg-tty "#875f00")
-      (diff-changed-fg "#ffffd7"))
+      (diff-refine-changed-bg "#7f7f5f")(diff-refine-changed-bg-tty "#87875f")
+      (diff-changed-fg "#ffffd7")
+      (diff-ancestor-bg "#3f3f4f")(diff-ancestor-bg-tty "#00005f")
+      (diff-refine-ancestor-bg "#5f5f7f")(diff-refine-ancestor-bg-tty "#5f5f87")
+      (diff-ancestor-fg "#d7d7ff"))
 
   (custom-theme-set-faces
    'wildcharm
@@ -663,6 +666,9 @@
    `(ediff-current-diff-C
      ((,classTC (:background ,diff-changed-bg))
       (t (:background ,diff-changed-bg-tty))))
+   `(ediff-current-diff-Ancestor
+     ((,classTC (:background ,diff-ancestor-bg))
+      (t (:background ,diff-ancestor-bg-tty))))
    `(ediff-fine-diff-A
      ((,classTC (:background ,diff-refine-removed-bg :foreground ,diff-removed-fg))
       (t (:background ,diff-refine-removed-bg-tty :foreground ,diff-removed-fg))))
@@ -672,11 +678,16 @@
    `(ediff-fine-diff-C
      ((,classTC (:background ,diff-refine-changed-bg :foreground ,diff-changed-fg))
       (t (:background ,diff-refine-changed-bg-tty :foreground ,diff-changed-fg))))
+   `(ediff-fine-diff-Ancestor
+     ((,classTC (:background ,diff-refine-ancestor-bg :foreground ,diff-ancestor-fg))
+      (t (:background ,diff-refine-ancestor-bg-tty :foreground ,diff-ancestor-fg))))
    `(ediff-even-diff-A
      ((,class256 (:background ,grey2))))
    `(ediff-even-diff-B
      ((,class256 (:background ,grey2))))
    `(ediff-even-diff-C
+     ((,class256 (:background ,grey2))))
+   `(ediff-even-diff-Ancestor
      ((,class256 (:background ,grey2))))
    `(ediff-odd-diff-A
      ((,class256 (:background ,grey2))))
@@ -684,7 +695,9 @@
      ((,class256 (:background ,grey2))))
    `(ediff-odd-diff-C
      ((,class256 (:background ,grey2))))
-
+   `(ediff-odd-diff-Ancestor
+     ((,class256 (:background ,grey2))))
+   
    ;; smerge
    `(smerge-lower
      ((,classTC (:background ,diff-added-bg))
