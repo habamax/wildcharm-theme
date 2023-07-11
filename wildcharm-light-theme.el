@@ -886,9 +886,9 @@
 
    ;; orderless
    `(orderless-match-face-0
-     ((,class256 (:foreground ,blue :weight bold))))
+     ((,class256 (:foreground ,red :weight bold))))
    `(orderless-match-face-1
-     ((,class256 (:foreground ,magenta :weight bold))))
+     ((,class256 (:foreground ,blue :weight bold))))
    `(orderless-match-face-2
      ((,class256 (:foreground ,green :weight bold))))
    `(orderless-match-face-3
