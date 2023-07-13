@@ -1,4 +1,4 @@
-;;; wildcharm-light-theme.el --- Port of vim-wildcharm colorscheme -*- lexical-binding: t; -*-
+;;; wildcharm-light-theme.el --- Port of vim-wildcharm (light) colorscheme -*- lexical-binding: t; -*-
 
 ;; Author: Maxim Kim <habamax@gmail.com>
 ;; URL: https://github.com/habamax/wildcharm-theme
