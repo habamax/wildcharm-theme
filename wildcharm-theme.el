@@ -165,6 +165,40 @@
    `(show-paren-mismatch
      ((,class256 :background ,match-paren :foreground ,white :weight bold)))
 
+   ;; ansi colors
+   `(ansi-color-black
+      ((t (:background ,black :foreground ,black))))
+   `(ansi-color-bright-black
+      ((t (:background ,darkgrey :foreground ,darkgrey))))
+   `(ansi-color-red
+      ((t (:background ,red :foreground ,red))))
+   `(ansi-color-bright-red
+     ((t (:background ,bright-red :foreground ,bright-red))))
+   `(ansi-color-green
+      ((t (:background ,green :foreground ,green))))
+   `(ansi-color-bright-green
+      ((t (:background ,bright-green :foreground ,bright-green))))
+   `(ansi-color-yellow
+      ((t (:background ,yellow :foreground ,yellow))))
+   `(ansi-color-bright-yellow
+     ((t (:background ,bright-yellow :foreground ,bright-yellow))))
+   `(ansi-color-blue
+      ((t (:background ,blue :foreground ,blue))))
+   `(ansi-color-bright-blue
+     ((t (:background ,bright-blue :foreground ,bright-blue))))
+   `(ansi-color-magenta
+      ((t (:background ,magenta :foreground ,magenta))))
+   `(ansi-color-bright-magenta
+     ((t (:background ,bright-magenta :foreground ,bright-magenta))))
+   `(ansi-color-cyan
+      ((t (:background ,cyan :foreground ,cyan))))
+   `(ansi-color-bright-cyan
+     ((t (:background ,bright-cyan :foreground ,bright-cyan))))
+   `(ansi-color-white
+      ((t (:background ,grey :foreground ,grey))))
+   `(ansi-color-bright-white
+     ((t (:background ,white :foreground ,white))))
+   
    ;; font-lock
    `(font-lock-string-face
      ((,class256 (:foreground ,bright-green))))
