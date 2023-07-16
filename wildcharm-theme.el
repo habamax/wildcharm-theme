@@ -20,14 +20,14 @@
 
 ;;; Commentary:
 
-;; Contrast dark Emacs theme.
+;; High-contrast dark Emacs theme.
 ;; - Port of the dark background vim-wildcharm colorscheme.
 ;; - TUI has no background defined, i.e. depends on terminal.
 ;; - Should look mostly the same in GUI and TUI with 256 colors support.
 
 ;;; Code:
 
-(deftheme wildcharm "Simple mid-contrast dark theme.")
+(deftheme wildcharm "High-contrast dark Emacs theme.")
 
 (let ((classTC '((class color) (min-colors 257)))
       (class256 '((class color) (min-colors 256)))

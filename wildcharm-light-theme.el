@@ -20,13 +20,13 @@
 
 ;;; Commentary:
 
-;; Contrast light Emacs theme.
+;; High-contrast light Emacs theme.
 ;; - Port of the light background vim-wildcharm colorscheme.
 ;; - Should look mostly the same in GUI and TUI with 256 colors support.
 
 ;;; Code:
 
-(deftheme wildcharm-light "Simple mid-contrast light theme.")
+(deftheme wildcharm-light "High-contrast light Emacs theme.")
 
 (let ((class256 '((class color) (min-colors 256)))
       (classTTY '((type tty)))
