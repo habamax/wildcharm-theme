@@ -275,9 +275,9 @@
    `(icomplete-selected-match
      ((,class256 (:background ,hl-line))))
    `(completions-common-part
-     ((,class256 (:foreground ,blue :weight bold))))
+     ((,class256 (:foreground ,red :weight bold))))
    `(completions-first-difference
-     ((,class256 (:foreground ,magenta))))
+     ((,class256 (:foreground ,blue :weight bold))))
    `(completions-annotations
      ((,class256 (:foreground ,darkgrey))))
 
