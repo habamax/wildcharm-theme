@@ -353,6 +353,12 @@
      ((,class256 (:background unspecified :foreground ,yellow))))
 
    ;; info
+   `(info-title-1
+     ((,class256 (:foreground ,white :weight bold))))
+   `(info-title-2
+     ((,class256 (:foreground ,white :weight bold))))
+   `(info-title-3
+     ((,class256 (:foreground ,white :weight bold))))
    `(info-title-4
      ((,class256 (:foreground ,white :weight bold))))
    `(info-menu-header
