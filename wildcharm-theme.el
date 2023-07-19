@@ -625,6 +625,20 @@
      ((t (:inherit 'diff-removed :foreground ,bright-red))))
 
    ;; vc
+   `(vc-dir-header
+     ((,class256 (:foreground ,cyan))))
+   `(vc-dir-header-value
+     ((,class256 (:foreground ,fg))))
+   `(vc-dir-directory
+     ((,class256 (:foreground ,bright-blue :weight bold))))
+   `(vc-dir-file
+     ((,class256 (:foreground ,fg))))
+   `(vc-dir-status-up-to-date
+     ((,class256 (:foreground ,bright-green))))
+   `(vc-dir-status-edited
+     ((,class256 (:foreground ,bright-yellow))))
+   `(vc-dir-mark-indicator
+     ((,class256 (:foreground ,bright-red))))
    `(vc-edited-state
      ((,class256 (:foreground ,yellow))))
    `(vc-conflict-state
