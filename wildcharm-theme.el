@@ -32,7 +32,7 @@
 (let ((classTC '((class color) (min-colors 257)))
       (class256 '((class color) (min-colors 256)))
       (classTTY '((type tty)))
-      (fg "#d0d0d0") (bg "#121212")
+      (fg "#d0d0d0")(bg "#121212")
       (black "#000000")(darkgrey "#808080")
       (red "#d75f5f")(bright-red "#ff5f87")
       (green "#00af5f")(bright-green "#00d75f")
@@ -325,12 +325,6 @@
      ((,class256 (:inherit 'whitespace-space))))
    `(whitespace-empty
      ((,class256 (:background ,yellow))))
-
-   ;; vc
-   `(log-view-message
-     ((,class256 (:foreground ,darkgrey))))
-   `(log-view-commit-body
-     ((,class256 (:foreground ,fg))))
 
    ;; message
    `(message-header-name
@@ -653,6 +647,13 @@
      ((,class256 (:foreground ,green))))
    `(vc-removed-state
      ((,class256 (:foreground ,bright-red))))
+   `(log-edit-summary
+     ((,class256 (:foreground ,white :weight bold))))
+   `(log-view-message
+     ((,class256 (:foreground ,darkgrey))))
+   `(log-view-commit-body
+     ((,class256 (:foreground ,fg))))
+
 
    ;; git-commit
    `(git-commit-summary

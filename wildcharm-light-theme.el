@@ -316,12 +316,6 @@
    `(whitespace-empty
      ((,class256 (:background ,yellow))))
 
-   ;; vc
-   `(log-view-message
-     ((,class256 (:foreground ,darkgrey))))
-   `(log-view-commit-body
-     ((,class256 (:foreground ,fg))))
-
    ;; message
    `(message-header-name
      ((,class256 (:foreground ,magenta))))
@@ -639,6 +633,13 @@
      ((,class256 (:foreground ,green))))
    `(vc-removed-state
      ((,class256 (:foreground ,red))))
+   `(log-edit-summary
+     ((,class256 (:foreground ,black :weight bold))))
+   `(log-view-message
+     ((,class256 (:foreground ,darkgrey))))
+   `(log-view-commit-body
+     ((,class256 (:foreground ,fg))))
+
 
    ;; git-commit
    `(git-commit-summary
