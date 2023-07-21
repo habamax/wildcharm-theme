@@ -721,7 +721,17 @@
      ((,class256 (:foreground ,darkgrey))))
    `(magit-log-date
      ((,class256 (:foreground ,darkgrey))))
-
+   `(magit-blame-name
+     ((,class256 (:foreground ,bright-red))))
+   `(magit-blame-date
+     ((,class256 (:foreground ,cyan))))
+   `(magit-blame-heading
+     ((,class256 (:background ,grey1 :foreground ,white))))
+   `(magit-blame-margin
+     ((,class256 (:background ,grey1 :foreground ,white))))
+   `(magit-blame-highlight
+     ((,class256 (:background ,grey1 :foreground ,white))))
+   
    ;; ediff
    `(ediff-current-diff-A
      ((,classTC (:background ,diff-removed-bg))
