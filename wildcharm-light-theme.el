@@ -638,6 +638,8 @@
      ((,class256 (:foreground ,green))))
    `(vc-removed-state
      ((,class256 (:foreground ,red))))
+   `(log-edit-header
+     ((,class256 (:foreground ,bright-magenta :weight bold))))
    `(log-edit-summary
      ((,class256 (:foreground ,black :weight bold))))
    `(log-edit-headers-separator
