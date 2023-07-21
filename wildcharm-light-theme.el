@@ -28,7 +28,8 @@
 
 (deftheme wildcharm-light "High-contrast light Emacs theme.")
 
-(let ((class256 '((class color) (min-colors 256)))
+(let ((classTC '((class color) (min-colors 257)))
+      (class256 '((class color) (min-colors 256)))
       (classTTY '((type tty)))
       (fg "#000000")(bg "#ffffff")
       (black "#000000")(darkgrey "#808080")
@@ -635,6 +636,9 @@
      ((,class256 (:foreground ,red))))
    `(log-edit-summary
      ((,class256 (:foreground ,black :weight bold))))
+   `(log-edit-headers-separator
+     ((,classTC (:background ,grey :height 0.1 :extend t))
+      (,class256 (:background unspecified))))
    `(log-view-message
      ((,class256 (:foreground ,darkgrey))))
    `(log-view-commit-body
