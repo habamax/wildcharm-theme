@@ -252,6 +252,10 @@
    `(custom-button-mouse
      ((,class256 (:background ,non-text :foreground ,fg :extend t
                               :box (:line-width (2 . 2) :style released-button)))))
+   `(custom-state
+     ((,class256 (:foreground ,green))))
+   `(custom-group-tag
+     ((,class256 (:foreground ,bright-magenta :weight bold))))
    `(widget-field
      ((,class256 (:background ,grey2 :foreground ,fg :extend t))))
    `(widget-inactive
