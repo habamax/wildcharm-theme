@@ -656,8 +656,8 @@
    `(log-edit-summary
      ((,class256 (:foreground ,white :weight bold))))
    `(log-edit-headers-separator
-     ((,classTC (:background ,darkgrey :height 0.1 :extend t))
-      (,class256 (:background unspecified))))
+     ((,classTTY (:background unspecified))
+      (t (:background ,darkgrey :height 0.1 :extend t))))
    `(log-view-message
      ((,class256 (:foreground ,darkgrey))))
    `(log-view-commit-body
