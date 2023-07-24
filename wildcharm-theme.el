@@ -363,7 +363,9 @@
      ((,class256 (:inherit info-title-3))))
    `(info-node
      ((,class256 (:foreground ,bright-yellow :weight bold))))
-
+   `(info-menu-star
+     ((,class256 (:foreground ,bright-yellow))))
+   
    ;; edmacro
    `(edmacro-label
      ((,class256 (:foreground ,bright-blue :weight bold))))

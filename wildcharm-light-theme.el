@@ -896,7 +896,9 @@
      ((,class256 (:foreground ,yellow))))
    `(elfeed-search-unread-count-face
      ((,class256 (:foreground ,blue))))
-
+   `(info-menu-star
+     ((,class256 (:foreground ,bright-yellow))))
+   
    ;; eshell
    `(eshell-prompt
      ((,class256 (:foreground ,bright-magenta :weight bold))))
