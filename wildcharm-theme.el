@@ -1033,8 +1033,12 @@
 
    ;; sly
    `(sly-mrepl-output-face
-     ((,class256 (:foreground ,cyan))))
-
+     ((,class256 (:foreground ,fg))))
+   `(sly-mrepl-note-face
+     ((,class256 (:foreground ,yellow))))
+   `(sly-action-face
+     ((,class256 (:foreground ,blue :weight bold))))
+   
    ;; corfu
    `(corfu-default
      ((,class256 (:background ,grey3))))
