@@ -198,7 +198,7 @@
       ((t (:background ,grey :foreground ,grey))))
    `(ansi-color-bright-white
      ((t (:background ,white :foreground ,white))))
-   
+
    ;; font-lock
    `(font-lock-string-face
      ((,class256 (:foreground ,bright-green))))
@@ -220,6 +220,9 @@
      ((,class256 (:foreground ,bright-red))))
    `(font-lock-warning-face
      ((,class256 (:foreground ,yellow :weight bold))))
+
+   `(elisp-shorthand-font-lock-face
+     ((,class256 (:foreground ,bright-cyan :weight bold))))
 
    ;; isearch
    `(isearch
@@ -365,7 +368,7 @@
      ((,class256 (:foreground ,bright-yellow :weight bold))))
    `(info-menu-star
      ((,class256 (:foreground ,bright-yellow))))
-   
+
    ;; edmacro
    `(edmacro-label
      ((,class256 (:foreground ,bright-blue :weight bold))))
@@ -665,7 +668,6 @@
    `(log-view-commit-body
      ((,class256 (:foreground ,fg))))
 
-
    ;; git-commit
    `(git-commit-summary
      ((,class256 (:foreground ,white :weight bold))))
@@ -733,7 +735,7 @@
      ((,class256 (:background ,grey1 :foreground ,white))))
    `(magit-blame-highlight
      ((,class256 (:background ,grey1 :foreground ,white))))
-   
+
    ;; ediff
    `(ediff-current-diff-A
      ((,classTC (:background ,diff-removed-bg))
@@ -775,7 +777,7 @@
      ((,class256 (:background ,grey2))))
    `(ediff-odd-diff-Ancestor
      ((,class256 (:background ,grey2))))
-   
+
    ;; smerge
    `(smerge-lower
      ((,classTC (:background ,diff-added-bg))
@@ -1040,7 +1042,7 @@
      ((,class256 (:foreground ,yellow))))
    `(sly-action-face
      ((,class256 (:foreground ,blue :weight bold))))
-   
+
    ;; corfu
    `(corfu-default
      ((,class256 (:background ,grey3))))
@@ -1092,7 +1094,7 @@
      ((,class256 (:foreground ,red))))
    `(rst-definition
      ((,class256 (:foreground ,green))))
-   
+
    ;; tempel
    `(tempel-default
      ((,classTC (:background ,diff-added-bg))

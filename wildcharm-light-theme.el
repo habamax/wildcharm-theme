@@ -213,6 +213,9 @@
    `(font-lock-warning-face
      ((,class256 (:foreground ,bright-yellow :weight bold))))
 
+   `(elisp-shorthand-font-lock-face
+     ((,class256 (:foreground ,bright-cyan :weight bold))))
+
    ;; isearch
    `(isearch
      ((,class256 (:background ,white :foreground ,bright-yellow :inverse-video t))))
@@ -650,7 +653,6 @@
    `(log-view-commit-body
      ((,class256 (:foreground ,fg))))
 
-
    ;; git-commit
    `(git-commit-summary
      ((,class256 (:foreground ,black :weight bold))))
@@ -718,7 +720,7 @@
      ((,class256 (:background ,grey1 :foreground ,black))))
    `(magit-blame-highlight
      ((,class256 (:background ,grey1 :foreground ,black))))
-   
+
    ;; ediff
    `(ediff-current-diff-A
      ((,class256 (:background ,diff-removed-bg))))
@@ -898,7 +900,7 @@
      ((,class256 (:foreground ,blue))))
    `(info-menu-star
      ((,class256 (:foreground ,bright-yellow))))
-   
+
    ;; eshell
    `(eshell-prompt
      ((,class256 (:foreground ,bright-magenta :weight bold))))
@@ -1017,7 +1019,7 @@
      ((,class256 (:foreground ,yellow))))
    `(sly-action-face
      ((,class256 (:foreground ,bright-blue :weight bold))))
-   
+
    ;; corfu
    `(corfu-default
      ((,class256 (:background ,grey3))))
