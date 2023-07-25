@@ -629,7 +629,7 @@
 
    ;; vc
    `(vc-dir-header
-     ((,class256 (:foreground ,cyan))))
+     ((,class256 (:foreground ,bright-magenta))))
    `(vc-dir-header-value
      ((,class256 (:foreground ,fg))))
    `(vc-dir-directory
