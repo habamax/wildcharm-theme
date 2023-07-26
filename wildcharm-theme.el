@@ -567,6 +567,12 @@
    `(mm-uu-extract
      ((,class256 (:background ,block :foreground ,yellow))))
 
+   ;; highlight-changes
+   `(highlight-changes
+     ((,class256 (:foreground ,yellow1))))
+   `(highlight-changes-delete
+     ((,class256 (:foreground ,red :underline t))))
+   
    ;; shr
    `(shr-h1
      ((,class256 (:foreground ,white :weight bold :height 1.6))))
