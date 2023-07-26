@@ -132,6 +132,8 @@
      ((,class256 (:foreground ,bright-yellow :weight bold))))
    `(fringe
      ((t (:foreground ,non-text :background unspecified))))
+   `(separator-line
+     ((t (:foreground ,non-text :underline t))))
    ;; -scroll-bar
    `(cursor
      ((t (:background ,white))))
@@ -159,7 +161,7 @@
      ((t (:background ,menu :foreground ,darkgrey))))
    `(tty-menu-selected-face
      ((t (:background ,grey2 :foreground ,grey :weight bold))))
-
+   
    `(show-paren-match
      ((,class256 :foreground ,match-paren :weight bold)))
    `(show-paren-mismatch

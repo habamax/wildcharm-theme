@@ -124,6 +124,8 @@
      ((,class256 (:foreground ,yellow :weight bold))))
    `(fringe
      ((t (:foreground ,non-text :background unspecified))))
+   `(separator-line
+     ((t (:foreground ,non-text :underline t))))
    ;; -scroll-bar
    `(cursor
      ((t (:background ,fg))))
