@@ -396,6 +396,8 @@
      ((,class256 (:foreground ,cyan))))
    `(org-verbatim
      ((,class256 (:foreground ,magenta))))
+   `(org-formula
+     ((,class256 (:foreground ,bright-red))))
    `(org-latex-and-related
      ((,class256 (:foreground ,yellow))))
    `(org-tag
