@@ -903,7 +903,9 @@
      ((,class256 (:foreground ,bright-yellow))))
    `(calendar-today
      ((,class256 (:foreground ,bright-green))))
-
+   `(holiday
+     ((,class256 (:background ,magenta :foreground ,bg))))
+   
    ;; elfeed
    `(elfeed-log-date-face
      ((,class256 (:foreground ,yellow))))
