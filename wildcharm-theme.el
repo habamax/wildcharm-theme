@@ -801,6 +801,10 @@
      ((t (:background ,red :foreground ,black))))
 
    ;; epa
+   `(epa-mark
+     ((,class256 (:foreground ,bright-red :weight bold))))
+   `(epa-string
+     ((,class256 (:foreground ,bright-green))))
    `(epa-validity-high
      ((,class256 (:foreground ,bright-green :weight bold))))
    `(epa-validity-medium
