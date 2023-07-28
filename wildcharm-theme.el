@@ -426,6 +426,8 @@
      ((,class256 (:foreground ,green :weight bold))))
    `(org-date
      ((,class256 (:foreground ,darkgrey))))
+   `(org-sexp-date
+     ((,class256 (:foreground ,cyan))))
    `(org-headline-done
      ((,class256 (:foreground unspecified))))
    `(org-checkbox
