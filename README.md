@@ -58,34 +58,34 @@ or
 
 ### Dark
 
-| Color            | RGB       |                | Color            | RGB       |                |
-|------------------|-----------|----------------|------------------|-----------|----------------|
-| Black            | `#000000` | ![#000000][0]  | Dark Grey        | `#808080` | ![#808080][8]  |
-| Red              | `#D75F5F` | ![#D75F5F][1]  | Bright Red       | `#FF5F87` | ![#FF5F87][9]  |
-| Green            | `#00AF5F` | ![#00AF5F][2]  | Bright Green     | `#00D75F` | ![#00D75F][10] |
-| Yellow           | `#D78700` | ![#D78700][3]  | Bright Yellow    | `#FFAF00` | ![#FFAF00][11] |
-| Blue             | `#0087D7` | ![#0087D7][4]  | Bright Blue      | `#00AFFF` | ![#00AFFF][12] |
-| Magenta          | `#D787D7` | ![#D787D7][5]  | Bright Magenta   | `#FF87FF` | ![#FF87FF][13] |
-| Cyan             | `#00AFAF` | ![#00AFAF][6]  | Bright Cyan      | `#00D7D7` | ![#00D7D7][14] |
-| Grey             | `#D0D0D0` | ![#D0D0D0][7]  | White            | `#FFFFFF` | ![#FFFFFF][15] |
-| Purple           | `#875FFF` | ![#875FFF][28] | Comment          | `#87875F` | ![#87875F][27] |
-| Foreground color | `#D0D0D0` | ![#D0D0D0][7]  | Background color | `#121212` | ![#121212][16] |
+| Color      | RGB       |                | Color          | RGB       |                |
+|------------|-----------|----------------|----------------|-----------|----------------|
+| Black      | `#000000` | ![#000000][0]  | Dark Grey      | `#808080` | ![#808080][8]  |
+| Red        | `#D75F5F` | ![#D75F5F][1]  | Bright Red     | `#FF5F87` | ![#FF5F87][9]  |
+| Green      | `#00AF5F` | ![#00AF5F][2]  | Bright Green   | `#00D75F` | ![#00D75F][10] |
+| Yellow     | `#D78700` | ![#D78700][3]  | Bright Yellow  | `#FFAF00` | ![#FFAF00][11] |
+| Blue       | `#0087D7` | ![#0087D7][4]  | Bright Blue    | `#00AFFF` | ![#00AFFF][12] |
+| Magenta    | `#D787D7` | ![#D787D7][5]  | Bright Magenta | `#FF87FF` | ![#FF87FF][13] |
+| Cyan       | `#00AFAF` | ![#00AFAF][6]  | Bright Cyan    | `#00D7D7` | ![#00D7D7][14] |
+| Grey       | `#D0D0D0` | ![#D0D0D0][7]  | White          | `#FFFFFF` | ![#FFFFFF][15] |
+| Purple     | `#875FFF` | ![#875FFF][28] | Comment        | `#87875F` | ![#87875F][27] |
+| Foreground | `#D0D0D0` | ![#D0D0D0][7]  | Background     | `#121212` | ![#121212][16] |
 
 
 ### Light
 
-| Color            | RGB       |                | Color            | RGB       |                |
-|------------------|-----------|----------------|------------------|-----------|----------------|
-| Black            | `#000000` | ![#000000][0]  | Dark Grey        | `#808080` | ![#808080][8]  |
-| Red              | `#AF0000` | ![#AF0000][17] | Bright Red       | `#D70000` | ![#D70000][23] |
-| Green            | `#008700` | ![#008700][18] | Bright Green     | `#5FAF5F` | ![#5FAF5F][24] |
-| Yellow           | `#AF5F00` | ![#AF5F00][19] | Bright Yellow    | `#D78700` | ![#D78700][3]  |
-| Blue             | `#005FAF` | ![#005FAF][20] | Bright Blue      | `#0087D7` | ![#0087D7][4]  |
-| Magenta          | `#870087` | ![#870087][21] | Bright Magenta   | `#AF00AF` | ![#AF00AF][25] |
-| Cyan             | `#005F5F` | ![#005F5F][22] | Bright Cyan      | `#008787` | ![#008787][26] |
-| Grey             | `#D0D0D0` | ![#D0D0D0][7]  | White            | `#FFFFFF` | ![#FFFFFF][15] |
-| Purple           | `#5F00D7` | ![#5F00D7][29] | Comment          | `#87875F` | ![#87875F][27] |
-| Foreground color | `#000000` | ![#000000][0]  | Background color | `#FFFFFF` | ![#FFFFFF][15] |
+| Color      | RGB       |                | Color          | RGB       |                |
+|------------|-----------|----------------|----------------|-----------|----------------|
+| Black      | `#000000` | ![#000000][0]  | Dark Grey      | `#808080` | ![#808080][8]  |
+| Red        | `#AF0000` | ![#AF0000][17] | Bright Red     | `#D70000` | ![#D70000][23] |
+| Green      | `#008700` | ![#008700][18] | Bright Green   | `#5FAF5F` | ![#5FAF5F][24] |
+| Yellow     | `#AF5F00` | ![#AF5F00][19] | Bright Yellow  | `#D78700` | ![#D78700][3]  |
+| Blue       | `#005FAF` | ![#005FAF][20] | Bright Blue    | `#0087D7` | ![#0087D7][4]  |
+| Magenta    | `#870087` | ![#870087][21] | Bright Magenta | `#AF00AF` | ![#AF00AF][25] |
+| Cyan       | `#005F5F` | ![#005F5F][22] | Bright Cyan    | `#008787` | ![#008787][26] |
+| Grey       | `#D0D0D0` | ![#D0D0D0][7]  | White          | `#FFFFFF` | ![#FFFFFF][15] |
+| Purple     | `#5F00D7` | ![#5F00D7][29] | Comment        | `#87875F` | ![#87875F][27] |
+| Foreground | `#000000` | ![#000000][0]  | Background     | `#FFFFFF` | ![#FFFFFF][15] |
 
 
 [0]: https://github.com/habamax/wildcharm-theme/assets/234774/1438b0cb-0dc7-483e-91ab-95be90b69bf1
