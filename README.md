@@ -44,7 +44,7 @@ or
 ```
 (use-package wildcharm-light-theme
   :init
-  (load-theme 'wildcharm t)
+  (load-theme 'wildcharm-light t)
   :custom-face
   ;; org header sizes
   (org-level-1 ((t (:height 1.6))))
