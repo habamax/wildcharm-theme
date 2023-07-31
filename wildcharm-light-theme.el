@@ -230,9 +230,9 @@
    `(font-lock-function-call-face
      ((,class256 (:foreground ,magenta))))
    `(font-lock-variable-name-face
-     ((,class256 (:foreground ,bright-cyan))))
-   `(font-lock-property-use-face
      ((,class256 (:foreground ,cyan))))
+   `(font-lock-property-use-face
+     ((,class256 (:foreground ,fg))))
    `(font-lock-constant-face
      ((,class256 (:foreground ,red))))
    `(font-lock-escape-face
