@@ -196,6 +196,8 @@
    ;; font-lock
    `(font-lock-string-face
      ((,class256 (:foreground ,green))))
+   `(font-lock-number-face
+     ((,class256 (:foreground ,red))))   
    `(font-lock-comment-face
      ((,class256 (:foreground ,comment))))
    `(font-lock-keyword-face
@@ -207,9 +209,13 @@
    `(font-lock-type-face
      ((,class256 (:foreground ,yellow))))
    `(font-lock-function-name-face
+     ((,class256 (:foreground ,bright-magenta))))
+   `(font-lock-function-call-face
      ((,class256 (:foreground ,magenta))))
    `(font-lock-variable-name-face
      ((,class256 (:foreground ,bright-cyan))))
+   `(font-lock-property-use-face
+     ((,class256 (:foreground ,cyan))))
    `(font-lock-constant-face
      ((,class256 (:foreground ,red))))
    `(font-lock-warning-face
