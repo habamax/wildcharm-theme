@@ -218,6 +218,8 @@
      ((,class256 (:foreground ,cyan))))
    `(font-lock-constant-face
      ((,class256 (:foreground ,red))))
+   `(font-lock-escape-face
+     ((,class256 (:foreground ,yellow))))
    `(font-lock-warning-face
      ((,class256 (:foreground ,bright-yellow :weight bold))))
 
