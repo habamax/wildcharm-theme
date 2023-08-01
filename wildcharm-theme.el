@@ -838,6 +838,10 @@
      ((,classTTY (:inherit warning :underline t))
       (t (:underline (:style wave :color ,bright-yellow)))))
 
+   ;; eglot
+   `(eglot-highlight-symbol-face
+     ((,class256 (:background ,match))))
+
    ;; erc
    `(erc-timestamp-face
      ((,class256 (:foreground ,cyan))))
