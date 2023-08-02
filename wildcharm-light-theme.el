@@ -72,7 +72,7 @@
    `(link-visited
      ((,class256 (:foreground ,magenta :underline t))))
    `(highlight
-     ((,class256 (:background ,blue :foreground ,white))))
+     ((,class256 (:background ,white :foreground ,blue :inverse-video t))))
    `(region
      ((,class256 (:background ,bg :foreground ,bright-blue :inverse-video t))))
    `(secondary-selection
