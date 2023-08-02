@@ -1040,6 +1040,10 @@
    `(consult-highlight-match
      ((,class256 (:background ,match))))
 
+   ;; embark
+   `(embark-keybinding
+     ((,class256 (:foreground ,cyan :weight bold))))
+   
    ;; notmuch
    `(notmuch-message-summary-face
      ((,class256 (:background ,grey1))))
