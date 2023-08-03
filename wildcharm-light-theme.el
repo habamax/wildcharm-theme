@@ -273,6 +273,12 @@
    `(custom-variable-tag
      ((,class256 (:weight bold))))
 
+   ;; package
+   `(package-help-section-name
+     ((,class256 (:foreground unspecified :weight bold))))
+   `(package-status-installed
+     ((,class256 (:foreground ,darkgrey))))
+
    ;; dired
    `(dired-header
      ((,class256 (:foreground ,fg :weight bold))))

@@ -282,6 +282,12 @@
    `(custom-variable-tag
      ((,class256 (:foreground ,white :weight bold))))
 
+   ;; package
+   `(package-help-section-name
+     ((,class256 (:foreground ,white :weight bold))))
+   `(package-status-installed
+     ((,class256 (:foreground ,darkgrey))))
+
    ;; dired
    `(dired-header
      ((,class256 (:foreground ,white :weight bold))))
