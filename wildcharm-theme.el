@@ -145,6 +145,23 @@
                               :box (:line-width 1 :color ,non-text)))))
    `(tab-bar-tab-inactive
      ((t (:background unspecified :foreground ,grey))))
+   `(tab-line
+     ((,class256 (:background ,mode-line-inactive :foreground ,darkgrey))))
+   `(tab-line-tab
+     ((,class256 (:background ,mode-line-active :foreground ,white :weight bold
+                              :box (:line-width 1 :color ,non-text)))))
+   `(tab-line-tab-current
+     ((,class256 (:background ,mode-line-active :foreground ,white :weight bold
+                              :box (:line-width 1 :color ,non-text)))))
+   `(tab-line-highlight
+     ((,class256 (:background ,mode-line-active :foreground ,white :weight bold
+                              :box (:line-width 1 :color ,non-text)))))
+   `(tab-line-tab-inactive
+     ((t (:background unspecified :foreground ,grey))))
+   `(tab-line-tab-modified
+     ((t (:background unspecified :foreground ,green))))
+   `(tab-line-close-highlight
+     ((t (:background unspecified :foreground ,red))))
    `(help-key-binding
      ((,class256 (:background unspecified :foreground ,cyan :weight bold))))
    `(error
