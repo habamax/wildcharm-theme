@@ -247,7 +247,7 @@
    `(font-lock-function-call-face
      ((,class256 (:foreground ,magenta))))
    `(font-lock-property-use-face
-     ((,class256 (:foreground ,darkgrey))))
+     ((,class256 (:foreground unspecified))))
    `(font-lock-regexp-face
      ((,class256 (:foreground ,green))))
    `(font-lock-delimiter-face
