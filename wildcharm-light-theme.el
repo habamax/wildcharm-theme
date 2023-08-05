@@ -213,8 +213,6 @@
    ;; font-lock
    `(font-lock-string-face
      ((,class256 (:foreground ,green))))
-   `(font-lock-number-face
-     ((,class256 (:foreground ,red))))
    `(font-lock-comment-face
      ((,class256 (:foreground ,comment))))
    `(font-lock-keyword-face
@@ -227,19 +225,26 @@
      ((,class256 (:foreground ,yellow))))
    `(font-lock-function-name-face
      ((,class256 (:foreground ,bright-magenta))))
-   `(font-lock-function-call-face
-     ((,class256 (:foreground ,magenta))))
    `(font-lock-variable-name-face
      ((,class256 (:foreground ,cyan))))
-   `(font-lock-property-use-face
-     ((,class256 (:foreground ,fg))))
    `(font-lock-constant-face
      ((,class256 (:foreground ,red))))
-   `(font-lock-escape-face
-     ((,class256 (:foreground ,yellow))))
    `(font-lock-warning-face
      ((,class256 (:foreground ,bright-yellow :weight bold))))
 
+   `(font-lock-number-face
+     ((,class256 (:foreground ,red))))
+   `(font-lock-escape-face
+     ((,class256 (:foreground ,yellow))))
+   `(font-lock-function-call-face
+     ((,class256 (:foreground ,magenta))))
+   `(font-lock-property-use-face
+     ((,class256 (:foreground ,darkgrey))))
+   `(font-lock-regexp-face
+     ((,class256 (:foreground ,bright-green))))
+   `(font-lock-delimiter-face
+     ((,class256 (:foreground ,darkgrey))))
+   
    `(elisp-shorthand-font-lock-face
      ((,class256 (:foreground ,bright-cyan :weight bold))))
 
