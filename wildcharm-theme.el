@@ -570,6 +570,8 @@
      ((,class256 (:foreground ,fg))))
    `(gnus-summary-cancelled
      ((,class256 (:background unspecified :foreground ,red))))
+   `(gnus-header
+     ((,class256 (:inherit default))))
    `(gnus-header-name
      ((,class256 (:foreground ,magenta))))
    `(gnus-header-from
@@ -577,6 +579,8 @@
    `(gnus-header-content
      ((,class256 (:foreground ,fg :weight normal :slant normal))))
    `(gnus-header-subject
+     ((,class256 (:foreground ,white :weight bold))))
+   `(gnus-header-newsgroups
      ((,class256 (:foreground ,white :weight bold))))
    `(gnus-cite-attribution
      ((,class256 (:foreground ,bright-green :weight bold :slant normal :underline nil))))
