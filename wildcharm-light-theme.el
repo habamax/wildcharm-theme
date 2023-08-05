@@ -214,7 +214,7 @@
    `(font-lock-string-face
      ((,class256 (:foreground ,green))))
    `(font-lock-number-face
-     ((,class256 (:foreground ,red))))   
+     ((,class256 (:foreground ,red))))
    `(font-lock-comment-face
      ((,class256 (:foreground ,comment))))
    `(font-lock-keyword-face
@@ -763,6 +763,24 @@
      ((,class256 (:background ,grey1 :foreground ,black))))
    `(magit-blame-highlight
      ((,class256 (:background ,grey1 :foreground ,black))))
+   `(magit-reflog-amend
+     ((,class256 (:foreground ,bright-magenta))))
+   `(magit-reflog-merge
+     ((,class256 (:foreground ,bright-green))))
+   `(magit-reflog-other
+     ((,class256 (:foreground ,bright-cyan))))
+   `(magit-reflog-reset
+     ((,class256 (:foreground ,bright-red))))
+   `(magit-reflog-commit
+     ((,class256 (:foreground ,bright-green))))
+   `(magit-reflog-rebase
+     ((,class256 (:foreground ,bright-magenta))))
+   `(magit-reflog-remote
+     ((,class256 (:foreground ,bright-cyan))))
+   `(magit-reflog-checkout
+     ((,class256 (:foreground ,bright-blue))))
+   `(magit-reflog-cherry-pick
+     ((,class256 (:foreground ,bright-green))))
 
    ;; ediff
    `(ediff-current-diff-A
@@ -1043,7 +1061,7 @@
    ;; embark
    `(embark-keybinding
      ((,class256 (:foreground ,bright-cyan :weight bold))))
-   
+
    ;; notmuch
    `(notmuch-message-summary-face
      ((,class256 (:background ,grey2))))
