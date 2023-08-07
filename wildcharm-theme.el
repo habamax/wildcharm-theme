@@ -1082,7 +1082,7 @@
    `(marginalia-date
      ((,class256 (:foreground ,darkgrey))))
    `(marginalia-file-priv-dir
-     ((,class256 (:foreground unspecified :weight bold))))
+     ((,class256 (:foreground ,darkgrey))))
    `(marginalia-file-priv-link
      ((,class256 (:foreground ,bright-cyan))))
    `(marginalia-file-priv-read

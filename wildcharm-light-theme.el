@@ -244,7 +244,7 @@
      ((,class256 (:foreground ,bright-green))))
    `(font-lock-delimiter-face
      ((,class256 (:foreground ,darkgrey))))
-   
+
    `(elisp-shorthand-font-lock-face
      ((,class256 (:foreground ,bright-cyan :weight bold))))
 
@@ -1059,7 +1059,7 @@
    `(marginalia-date
      ((,class256 (:foreground ,darkgrey))))
    `(marginalia-file-priv-dir
-     ((,class256 (:foreground unspecified :weight bold))))
+     ((,class256 (:foreground ,darkgrey))))
    `(marginalia-file-priv-link
      ((,class256 (:foreground ,cyan))))
    `(marginalia-file-priv-read
@@ -1068,7 +1068,7 @@
      ((,class256 (:foreground ,blue))))
    `(marginalia-file-priv-exec
      ((,class256 (:foreground ,yellow))))
-   
+
    ;; consult
    `(consult-file
      ((,class256 (:foreground ,darkgrey))))
