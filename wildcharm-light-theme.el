@@ -869,6 +869,18 @@
    `(eglot-highlight-symbol-face
      ((,class256 (:background ,match))))
 
+   ;; wgrep
+   `(wgrep-face
+     ((,classTC (:background ,diff-added-bg))))
+   `(wgrep-done-face
+     ((,class256 (:foreground ,yellow))))
+   `(wgrep-file-face
+     ((t (:inherit wgrep-face))))
+   `(wgrep-delete-face
+     ((,classTC (:background ,diff-removed-bg))))
+   `(wgrep-reject-face
+     ((t (:inherit error))))
+
    ;; erc
    `(erc-timestamp-face
      ((,class256 (:foreground ,bright-cyan))))
