@@ -178,7 +178,7 @@
      ((t (:background ,menu :foreground ,darkgrey))))
    `(tty-menu-selected-face
      ((t (:background ,grey2 :foreground ,grey :weight bold))))
-   
+
    `(show-paren-match
      ((,class256 :foreground ,match-paren :weight bold)))
    `(show-paren-mismatch
@@ -241,7 +241,7 @@
      ((,class256 (:foreground ,yellow :weight bold))))
 
    `(font-lock-number-face
-     ((,class256 (:foreground ,bright-red))))   
+     ((,class256 (:foreground ,bright-red))))
    `(font-lock-escape-face
      ((,class256 (:foreground ,bright-yellow))))
    `(font-lock-function-call-face
@@ -252,7 +252,7 @@
      ((,class256 (:foreground ,green))))
    `(font-lock-delimiter-face
      ((,class256 (:foreground ,darkgrey))))
-   
+
    `(elisp-shorthand-font-lock-face
      ((,class256 (:foreground ,bright-cyan :weight bold))))
 
@@ -614,7 +614,7 @@
      ((,class256 (:foreground ,yellow1))))
    `(highlight-changes-delete
      ((,class256 (:foreground ,red :underline t))))
-   
+
    ;; shr
    `(shr-h1
      ((,class256 (:foreground ,white :weight bold :height 1.6))))
@@ -805,7 +805,7 @@
      ((,class256 (:foreground ,blue))))
    `(magit-reflog-cherry-pick
      ((,class256 (:foreground ,green))))
-    
+
    ;; ediff
    `(ediff-current-diff-A
      ((,classTC (:background ,diff-removed-bg))
@@ -979,7 +979,7 @@
      ((,class256 (:foreground ,bright-green))))
    `(holiday
      ((,class256 (:background ,magenta :foreground ,bg))))
-   
+
    ;; elfeed
    `(elfeed-log-date-face
      ((,class256 (:foreground ,yellow))))
@@ -1081,6 +1081,16 @@
      ((,class256 (:foreground ,cyan))))
    `(marginalia-date
      ((,class256 (:foreground ,darkgrey))))
+   `(marginalia-file-priv-dir
+     ((,class256 (:foreground unspecified :weight bold))))
+   `(marginalia-file-priv-link
+     ((,class256 (:foreground ,bright-cyan))))
+   `(marginalia-file-priv-read
+     ((,class256 (:foreground ,bright-magenta))))
+   `(marginalia-file-priv-write
+     ((,class256 (:foreground ,bright-blue))))
+   `(marginalia-file-priv-exec
+     ((,class256 (:foreground ,bright-yellow))))
 
    ;; consult
    `(consult-file
@@ -1093,7 +1103,7 @@
    ;; embark
    `(embark-keybinding
      ((,class256 (:foreground ,cyan :weight bold))))
-   
+
    ;; notmuch
    `(notmuch-message-summary-face
      ((,class256 (:background ,grey1))))
