@@ -490,7 +490,7 @@
 
    ;; gnus
    `(gnus-button
-     ((,class256 (:underline t))))
+     ((,class256 (:inherit link))))
    `(gnus-group-mail-1
      ((,class256 (:foreground ,green :weight bold))))
    `(gnus-group-mail-1-empty
