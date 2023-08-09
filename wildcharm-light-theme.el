@@ -402,7 +402,7 @@
 
    ;; outline
    `(outline-1
-     ((,class256 (:foreground ,white :weight bold))))
+     ((,class256 (:foreground ,black :weight bold))))
    `(outline-2
      ((,class256 (:foreground ,blue :weight bold))))
    `(outline-3
