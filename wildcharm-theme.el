@@ -415,7 +415,7 @@
    `(outline-1
      ((,class256 (:foreground ,white :weight bold))))
    `(outline-2
-     ((,class256 (:foreground ,bright-blue :weight bold))))
+     ((,class256 (:foreground ,bright-green :weight bold))))
    `(outline-3
      ((,class256 (:foreground ,bright-yellow :weight bold))))
    `(outline-4
@@ -423,11 +423,11 @@
    `(outline-5
      ((,class256 (:foreground ,bright-magenta :weight bold))))
    `(outline-6
-     ((,class256 (:foreground ,bright-green :weight bold))))
-   `(outline-7
      ((,class256 (:foreground ,purple :weight bold))))
-   `(outline-8
+   `(outline-7
      ((,class256 (:foreground ,comment :weight bold))))
+   `(outline-8
+     ((,class256 (:foreground ,darkgrey :weight bold))))
    
    ;; org
    `(org-meta-line
