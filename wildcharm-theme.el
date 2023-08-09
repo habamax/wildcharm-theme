@@ -304,6 +304,12 @@
    `(custom-variable-tag
      ((,class256 (:foreground ,white :weight bold))))
 
+   ;; shortdoc
+   `(shortdoc-heading
+     ((,class256 (:inherit default :weight bold :height 1.3))))   
+   `(shortdoc-section
+     ((,class256 (:inherit default))))
+   
    ;; package
    `(package-help-section-name
      ((,class256 (:foreground ,white :weight bold))))
