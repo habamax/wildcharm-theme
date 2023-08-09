@@ -428,7 +428,7 @@
      ((,class256 (:foreground ,comment :weight bold))))
    `(outline-8
      ((,class256 (:foreground ,darkgrey :weight bold))))
-   
+
    ;; org
    `(org-meta-line
      ((,class256 (:foreground ,darkgrey))))
@@ -1220,6 +1220,10 @@
      ((,class256 (:foreground ,red))))
    `(rst-definition
      ((,class256 (:foreground ,green))))
+
+   ;; sh
+   `(sh-quoted-exec
+     ((,class256 (:foreground ,bright-magenta))))
 
    ;; tempel
    `(tempel-default

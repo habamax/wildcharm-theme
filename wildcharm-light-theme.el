@@ -1196,6 +1196,10 @@
    `(rst-definition
      ((,class256 (:foreground ,green))))
 
+   ;; sh
+   `(sh-quoted-exec
+     ((,class256 (:foreground ,bright-magenta))))
+
    ;; tempel
    `(tempel-default
      ((,class256 (:background ,diff-added-bg))))
