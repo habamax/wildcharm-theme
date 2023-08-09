@@ -400,6 +400,24 @@
    `(edmacro-label
      ((,class256 (:foreground ,blue :weight bold))))
 
+   ;; outline
+   `(outline-1
+     ((,class256 (:foreground ,white :weight bold))))
+   `(outline-2
+     ((,class256 (:foreground ,blue :weight bold))))
+   `(outline-3
+     ((,class256 (:foreground ,yellow :weight bold))))
+   `(outline-4
+     ((,class256 (:foreground ,cyan :weight bold))))
+   `(outline-5
+     ((,class256 (:foreground ,magenta :weight bold))))
+   `(outline-6
+     ((,class256 (:foreground ,green :weight bold))))
+   `(outline-7
+     ((,class256 (:foreground ,purple :weight bold))))
+   `(outline-8
+     ((,class256 (:foreground ,comment :weight bold))))
+
    ;; org
    `(org-meta-line
      ((,class256 (:foreground ,darkgrey))))

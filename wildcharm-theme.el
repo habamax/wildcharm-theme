@@ -411,6 +411,24 @@
    `(edmacro-label
      ((,class256 (:foreground ,bright-blue :weight bold))))
 
+   ;; outline
+   `(outline-1
+     ((,class256 (:foreground ,white :weight bold))))
+   `(outline-2
+     ((,class256 (:foreground ,bright-blue :weight bold))))
+   `(outline-3
+     ((,class256 (:foreground ,bright-yellow :weight bold))))
+   `(outline-4
+     ((,class256 (:foreground ,bright-cyan :weight bold))))
+   `(outline-5
+     ((,class256 (:foreground ,bright-magenta :weight bold))))
+   `(outline-6
+     ((,class256 (:foreground ,bright-green :weight bold))))
+   `(outline-7
+     ((,class256 (:foreground ,purple :weight bold))))
+   `(outline-8
+     ((,class256 (:foreground ,comment :weight bold))))
+   
    ;; org
    `(org-meta-line
      ((,class256 (:foreground ,darkgrey))))
@@ -907,7 +925,7 @@
       (t (:background ,diff-removed-bg-tty :foreground ,diff-removed-fg))))
    `(wgrep-reject-face
      ((t (:inherit error))))
-   
+
    ;; erc
    `(erc-timestamp-face
      ((,class256 (:foreground ,cyan))))
