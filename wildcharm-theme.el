@@ -27,7 +27,9 @@
 
 ;;; Code:
 
-(deftheme wildcharm "High-contrast dark Emacs theme.")
+(deftheme wildcharm
+  "High-contrast dark Emacs theme."
+  :family 'wildcharm)
 
 (let ((classTC '((class color) (min-colors 257)))
       (class256 '((class color) (min-colors 256)))
