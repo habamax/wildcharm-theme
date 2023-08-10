@@ -1140,7 +1140,6 @@
      ((,class256 (:foreground ,blue))))
    `(notmuch-tag-added
      ((,class256 (:underline ,cyan))))
-   ;; XXX: should check for gui or strikethrough support...
    `(notmuch-tag-deleted
      ((,class256 (:foreground ,red :strike-through ,red))))
 
