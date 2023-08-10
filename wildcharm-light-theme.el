@@ -30,43 +30,51 @@
   "High-contrast light Emacs theme."
   :family 'wildcharm)
 
-(let ((classTC '((class color) (min-colors 257)))
-      (class256 '((class color) (min-colors 256)))
-      (classTTY '((type tty)))
-      (fg "#000000")(bg "#ffffff")
-      (black "#000000")(darkgrey "#808080")
-      (red "#af0000")(bright-red "#d70000")
-      (green "#008700")(bright-green "#5faf5f")
-      (yellow "#af5f00")(bright-yellow "#d78700")
-      (blue "#005faf")(bright-blue "#0087d7")
-      (magenta "#870087")(bright-magenta "#af00af")
-      (cyan "#005f5f")(bright-cyan "#008787")
-      (grey "#d0d0d0")(white "#ffffff")
-      (purple "#5f00d7")(comment "#87875f")
-      (yellow1 "#875f00")(yellow2 "#af5f00")
-      (grey1 "#dadada")(grey2 "#e4e4e4")(grey3 "#eeeeee")
-      (non-text "#b2b2b2")
-      (match-paren "#ff00af")(match "#ffd7ff")
-      (mode-line-active "#d0d0d0")(mode-line-inactive "#e4e4e4")
-      (menu "#eeeeee")
-      (header-line "#d7d7d7")
-      (hl-line "#eeeeee")
-      (block "#eeeeee")
-      (diff-added-bg "#afd7af")(diff-refine-added-bg "#d7ffd7")
-      (diff-added-fg "#005f00")
-      (diff-removed-bg "#d7afaf")(diff-refine-removed-bg "#ffd7d7")
-      (diff-removed-fg "#5f0000")
-      (diff-changed-bg "#d7d7af")(diff-refine-changed-bg "#ffffd7")
-      (diff-changed-fg "#5f5f00")
-      (diff-ancestor-bg "#afafd7")(diff-refine-ancestor-bg "#d7d7ff")
-      (diff-ancestor-fg "#00005f"))
+(let* ((classTC '((class color) (min-colors 257)))
+       (class256 '((class color) (min-colors 256)))
+       (classTTY '((type tty)))
+       (fg "#000000")(bg "#ffffff")
+       (black "#000000")(darkgrey "#808080")
+       (red "#af0000")(bright-red "#d70000")
+       (green "#008700")(bright-green "#5faf5f")
+       (yellow "#af5f00")(bright-yellow "#d78700")
+       (blue "#005faf")(bright-blue "#0087d7")
+       (magenta "#870087")(bright-magenta "#af00af")
+       (cyan "#005f5f")(bright-cyan "#008787")
+       (grey "#d0d0d0")(white "#ffffff")
+       (purple "#5f00d7")(comment "#87875f")
+       (yellow1 "#875f00")(yellow2 "#af5f00")
+       (grey1 "#dadada")(grey2 "#e4e4e4")(grey3 "#eeeeee")
+       (non-text "#b2b2b2")
+       (match-paren "#ff00af")(match "#ffd7ff")
+       (mode-line-active "#d0d0d0")(mode-line-inactive "#e4e4e4")
+       (menu "#eeeeee")
+       (header-line "#d7d7d7")
+       (hl-line "#eeeeee")
+       (block "#eeeeee")
+       (diff-added-bg "#afd7af")(diff-refine-added-bg "#d7ffd7")
+       (diff-added-fg "#005f00")
+       (diff-removed-bg "#d7afaf")(diff-refine-removed-bg "#ffd7d7")
+       (diff-removed-fg "#5f0000")
+       (diff-changed-bg "#d7d7af")(diff-refine-changed-bg "#ffffd7")
+       (diff-changed-fg "#5f5f00")
+       (diff-ancestor-bg "#afafd7")(diff-refine-ancestor-bg "#d7d7ff")
+       (diff-ancestor-fg "#00005f")
+       (outline-1 black)
+       (outline-2 green)
+       (outline-3 yellow)
+       (outline-4 cyan)
+       (outline-5 magenta)
+       (outline-6 purple)
+       (outline-7 comment)
+       (outline-8 darkgrey))
 
   (custom-theme-set-faces
    'wildcharm-light
 
    ;; standard faces
    `(default
-      ((,class256 (:background ,bg :foreground ,fg))))
+     ((,class256 (:background ,bg :foreground ,fg))))
    `(shadow
      ((,class256 (:foreground ,non-text))))
    `(link
@@ -180,35 +188,35 @@
 
    ;; ansi colors
    `(ansi-color-black
-      ((t (:background ,black :foreground ,black))))
+     ((t (:background ,black :foreground ,black))))
    `(ansi-color-bright-black
-      ((t (:background ,darkgrey :foreground ,darkgrey))))
+     ((t (:background ,darkgrey :foreground ,darkgrey))))
    `(ansi-color-red
-      ((t (:background ,red :foreground ,red))))
+     ((t (:background ,red :foreground ,red))))
    `(ansi-color-bright-red
      ((t (:background ,bright-red :foreground ,bright-red))))
    `(ansi-color-green
-      ((t (:background ,green :foreground ,green))))
+     ((t (:background ,green :foreground ,green))))
    `(ansi-color-bright-green
-      ((t (:background ,bright-green :foreground ,bright-green))))
+     ((t (:background ,bright-green :foreground ,bright-green))))
    `(ansi-color-yellow
-      ((t (:background ,yellow :foreground ,yellow))))
+     ((t (:background ,yellow :foreground ,yellow))))
    `(ansi-color-bright-yellow
      ((t (:background ,bright-yellow :foreground ,bright-yellow))))
    `(ansi-color-blue
-      ((t (:background ,blue :foreground ,blue))))
+     ((t (:background ,blue :foreground ,blue))))
    `(ansi-color-bright-blue
      ((t (:background ,bright-blue :foreground ,bright-blue))))
    `(ansi-color-magenta
-      ((t (:background ,magenta :foreground ,magenta))))
+     ((t (:background ,magenta :foreground ,magenta))))
    `(ansi-color-bright-magenta
      ((t (:background ,bright-magenta :foreground ,bright-magenta))))
    `(ansi-color-cyan
-      ((t (:background ,cyan :foreground ,cyan))))
+     ((t (:background ,cyan :foreground ,cyan))))
    `(ansi-color-bright-cyan
      ((t (:background ,bright-cyan :foreground ,bright-cyan))))
    `(ansi-color-white
-      ((t (:background ,grey :foreground ,grey))))
+     ((t (:background ,grey :foreground ,grey))))
    `(ansi-color-bright-white
      ((t (:background ,white :foreground ,white))))
 
@@ -404,27 +412,27 @@
    `(info-node
      ((,class256 (:foreground ,yellow :weight bold))))
 
-      ;; edmacro
+   ;; edmacro
    `(edmacro-label
      ((,class256 (:foreground ,blue :weight bold))))
 
    ;; outline
    `(outline-1
-     ((,class256 (:foreground ,black :weight bold))))
+     ((,class256 (:foreground ,outline-1 :weight bold))))
    `(outline-2
-     ((,class256 (:foreground ,green :weight bold))))
+     ((,class256 (:foreground ,outline-2 :weight bold))))
    `(outline-3
-     ((,class256 (:foreground ,yellow :weight bold))))
+     ((,class256 (:foreground ,outline-3 :weight bold))))
    `(outline-4
-     ((,class256 (:foreground ,cyan :weight bold))))
+     ((,class256 (:foreground ,outline-4 :weight bold))))
    `(outline-5
-     ((,class256 (:foreground ,magenta :weight bold))))
+     ((,class256 (:foreground ,outline-5 :weight bold))))
    `(outline-6
-     ((,class256 (:foreground ,purple :weight bold))))
+     ((,class256 (:foreground ,outline-6 :weight bold))))
    `(outline-7
-     ((,class256 (:foreground ,comment :weight bold))))
+     ((,class256 (:foreground ,outline-7 :weight bold))))
    `(outline-8
-     ((,class256 (:foreground ,darkgrey :weight bold))))
+     ((,class256 (:foreground ,outline-8 :weight bold))))
 
    ;; org
    `(org-meta-line
@@ -456,25 +464,25 @@
    `(org-block
      ((t (:foreground ,fg))))
    `(org-level-1
-     ((,class256 (:foreground ,black :weight bold))))
+     ((,class256 (:inherit outline-1))))
    `(org-level-2
-     ((,class256 (:foreground ,black :weight bold))))
+     ((,class256 (:inherit outline-2))))
    `(org-level-3
-     ((,class256 (:foreground ,black :weight bold))))
+     ((,class256 (:inherit outline-3))))
    `(org-level-4
-     ((,class256 (:foreground ,black :weight bold))))
+     ((,class256 (:inherit outline-4))))
    `(org-level-5
-     ((,class256 (:foreground ,black :weight bold))))
+     ((,class256 (:inherit outline-5))))
    `(org-level-6
-     ((,class256 (:foreground ,black :weight bold))))
+     ((,class256 (:inherit outline-6))))
    `(org-level-7
-     ((,class256 (:foreground ,black :weight bold))))
+     ((,class256 (:inherit outline-7))))
    `(org-level-8
-     ((,class256 (:foreground ,black :weight bold))))
+     ((,class256 (:inherit outline-8))))
    `(org-todo
-     ((,class256 (:foreground ,yellow :weight bold))))
+     ((,class256 (:foreground ,bright-red :weight bold))))
    `(org-done
-     ((,class256 (:foreground ,green :weight bold))))
+     ((,class256 (:foreground ,bright-green :weight bold))))
    `(org-date
      ((,class256 (:foreground ,darkgrey))))
    `(org-sexp-date
