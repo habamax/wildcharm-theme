@@ -1054,7 +1054,7 @@
 
    ;; eshell
    `(eshell-prompt
-     ((,class256 (:foreground ,bright-magenta :weight bold))))
+     ((,class256 (:foreground ,magenta :weight bold))))
    `(eshell-ls-directory
      ((,class256 (:foreground ,bright-blue :weight bold))))
    `(eshell-ls-symlink
