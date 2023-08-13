@@ -1027,6 +1027,10 @@
    `(info-menu-star
      ((,class256 (:foreground ,bright-yellow))))
 
+   ;; comint
+   `(comint-highlight-prompt
+     ((,class256 (:foreground ,bright-magenta :weight bold))))
+
    ;; eshell
    `(eshell-prompt
      ((,class256 (:foreground ,bright-magenta :weight bold))))

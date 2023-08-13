@@ -1052,6 +1052,10 @@
    `(elfeed-search-unread-count-face
      ((,class256 (:foreground ,bright-blue))))
 
+   ;; comint
+   `(comint-highlight-prompt
+     ((,class256 (:foreground ,bright-magenta :weight bold))))
+
    ;; eshell
    `(eshell-prompt
      ((,class256 (:foreground ,magenta :weight bold))))
