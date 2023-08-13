@@ -1054,7 +1054,7 @@
 
    ;; comint
    `(comint-highlight-prompt
-     ((,class256 (:foreground ,bright-magenta :weight bold))))
+     ((,class256 (:foreground ,magenta :weight bold))))
 
    ;; eshell
    `(eshell-prompt
