@@ -1220,7 +1220,23 @@
      ((,class256 (:foreground ,bright-magenta))))
 
    ;; tuareg
+   `(tuareg-font-lock-error-face
+     ((,class256 (:foreground ,bright-red :background ,white :inverse-video t))))
+   `(tuareg-font-lock-interactive-error-face
+     ((,class256 (:inherit error))))
+   `(tuareg-font-double-semicolon-face
+     ((,class256 (:foreground ,bright-red))))
+   `(tuareg-font-lock-interactive-output-face
+     ((,class256 (:foreground ,darkgrey))))
+   `(tuareg-font-lock-line-number-face
+     ((,class256 (:foreground ,darkgrey))))
+   `(tuareg-font-lock-extension-node-face
+     ((,class256 (:inherit font-lock-preprocessor-face))))
+   `(tuareg-font-lock-interactive-directive-face
+     ((,class256 (:inherit font-lock-keyword-face))))
    `(tuareg-font-lock-governing-face
+     ((,class256 (:inherit font-lock-keyword-face))))
+   `(tuareg-font-lock-operator-face
      ((,class256 (:inherit font-lock-keyword-face))))
 
    ;; tempel
