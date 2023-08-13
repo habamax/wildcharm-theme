@@ -307,7 +307,7 @@
 
    ;; shortdoc
    `(shortdoc-heading
-     ((,class256 (:inherit default :weight bold :height 1.3))))   
+     ((,class256 (:inherit default :weight bold :height 1.3))))
    `(shortdoc-section
      ((,class256 (:inherit default))))
 
@@ -1214,6 +1214,10 @@
    ;; sh
    `(sh-quoted-exec
      ((,class256 (:foreground ,bright-magenta))))
+
+   ;; tuareg
+   `(tuareg-font-lock-governing-face
+     ((,class256 (:inherit font-lock-keyword-face))))
 
    ;; tempel
    `(tempel-default
