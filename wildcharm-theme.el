@@ -94,7 +94,7 @@
    `(secondary-selection
      ((,class256 (:background ,bg :foreground ,cyan :inverse-video t))))
    `(trailing-whitespace
-     ((,class256 (:foreground ,red :weight bold))))
+     ((,class256 (:foreground ,red :inverse-video t))))
    `(line-number
      ((,class256 (:inherit default :foreground ,non-text))))
    `(line-number-current-line
