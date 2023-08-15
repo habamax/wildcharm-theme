@@ -236,7 +236,7 @@
    `(font-lock-function-name-face
      ((,class256 (:foreground ,bright-magenta))))
    `(font-lock-variable-name-face
-     ((,class256 (:foreground ,cyan))))
+     ((,class256 (:foreground ,bright-cyan))))
    `(font-lock-constant-face
      ((,class256 (:foreground ,red))))
    `(font-lock-warning-face
@@ -253,7 +253,7 @@
    `(font-lock-delimiter-face
      ((,class256 (:foreground ,magenta))))
    `(font-lock-property-use-face
-     ((,class256 (:foreground ,bright-cyan))))
+     ((,class256 (:foreground ,cyan))))
    `(font-lock-bracket-face
      ((,class256 (:foreground ,purple))))
 
