@@ -256,12 +256,14 @@
      ((,class256 (:foreground ,bright-yellow))))
    `(font-lock-function-call-face
      ((,class256 (:foreground ,magenta))))
-   `(font-lock-property-use-face
-     ((,class256 (:foreground unspecified))))
    `(font-lock-regexp-face
      ((,class256 (:foreground ,green))))
    `(font-lock-delimiter-face
-     ((,class256 (:foreground ,darkgrey))))
+     ((,class256 (:foreground ,bright-magenta))))
+   `(font-lock-property-use-face
+     ((,class256 (:foreground ,bright-cyan))))
+   `(font-lock-bracket-face
+     ((,class256 (:foreground ,purple))))
 
    `(elisp-shorthand-font-lock-face
      ((,class256 (:foreground ,bright-cyan :weight bold))))
