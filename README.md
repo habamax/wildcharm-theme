@@ -26,7 +26,7 @@ Available on MELPA:
 
 No theme specific options are exposed, use regular Emacs elisp if needed, for example:
 
-```
+```emacs-lisp
 (use-package wildcharm-theme
   :init
   (load-theme 'wildcharm t)
@@ -41,7 +41,7 @@ No theme specific options are exposed, use regular Emacs elisp if needed, for ex
 
 or
 
-```
+```emacs-lisp
 (use-package wildcharm-light-theme
   :init
   (load-theme 'wildcharm-light t)
