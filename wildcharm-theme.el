@@ -154,7 +154,8 @@
      ((,class256 (:background ,mode-line-active :foreground ,white :weight bold
                               :box (:line-width 1 :color ,non-text)))))
    `(tab-bar-tab-inactive
-     ((t (:background unspecified :foreground ,grey))))
+     ((t (:background unspecified :foreground ,grey
+                      :box (:line-width 1 :color ,non-text)))))
    `(tab-line
      ((,class256 (:background ,mode-line-inactive :foreground ,darkgrey))))
    `(tab-line-tab
@@ -167,7 +168,8 @@
      ((,class256 (:background ,mode-line-active :foreground ,white :weight bold
                               :box (:line-width 1 :color ,non-text)))))
    `(tab-line-tab-inactive
-     ((t (:background unspecified :foreground ,grey))))
+     ((t (:background unspecified :foreground ,grey
+                      :box (:line-width 1 :color ,non-text)))))
    `(tab-line-tab-modified
      ((t (:background unspecified :foreground ,green))))
    `(tab-line-close-highlight
