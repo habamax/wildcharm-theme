@@ -67,7 +67,8 @@
        (outline-5 magenta)
        (outline-6 purple)
        (outline-7 comment)
-       (outline-8 darkgrey))
+       (outline-8 darkgrey)
+       (org-block "#fafafa"))
 
   (custom-theme-set-faces
    'wildcharm-light
@@ -445,6 +446,9 @@
      ((t (:inherit org-meta-line))))
    `(org-special-keyword
      ((t (:inherit org-meta-line))))
+   `(org-block
+     ((,classTC (:background ,org-block :foreground ,fg))
+      (t (:foreground ,fg))))
    `(org-block-begin-line
      ((t (:inherit org-meta-line))))
    `(org-block-end-line
@@ -465,8 +469,6 @@
      ((,class256 (:foreground ,yellow))))
    `(org-tag
      ((,class256 (:foreground ,darkgrey :weight normal))))
-   `(org-block
-     ((t (:foreground ,fg))))
    `(org-level-1
      ((,class256 (:inherit outline-1))))
    `(org-level-2
