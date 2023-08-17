@@ -473,10 +473,10 @@
    `(org-drawer
      ((,class256 (:foreground ,purple))))
    `(org-code
-     ((,classTC (:background ,code-block :foreground ,cyan))
+     ((,classTC (:background ,code-block :foreground ,cyan :extend t))
       (t (:foreground ,cyan))))
    `(org-verbatim
-     ((,classTC (:background ,code-block :foreground ,magenta))
+     ((,classTC (:background ,code-block :foreground ,magenta :extend t))
       (t (:foreground ,magenta))))
    `(org-formula
      ((,class256 (:foreground ,bright-red))))
