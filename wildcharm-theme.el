@@ -682,6 +682,8 @@
      ((,class256 (:foreground ,yellow))))
 
    ;; markdown
+   `(markdown-metadata-key-face
+     ((,class256 (:foreground ,darkgrey))))
    `(markdown-header-face
      ((,class256 (:foreground ,white :weight bold))))
    `(markdown-header-delimiter-face
