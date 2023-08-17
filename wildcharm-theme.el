@@ -473,12 +473,10 @@
    `(org-drawer
      ((,class256 (:foreground ,purple))))
    `(org-code
-     ((,classTC (:background ,code-block :foreground ,cyan
-                             :box (:line-width 1 :color ,grey1)))
+     ((,classTC (:background ,code-block :foreground ,cyan))
       (t (:foreground ,cyan))))
    `(org-verbatim
-     ((,classTC (:background ,code-block :foreground ,magenta
-                             :box (:line-width 1 :color ,grey1)))
+     ((,classTC (:background ,code-block :foreground ,magenta))
       (t (:foreground ,magenta))))
    `(org-formula
      ((,class256 (:foreground ,bright-red))))
@@ -698,8 +696,7 @@
    `(markdown-markup-face
      ((,class256 (:foreground ,darkgrey))))
    `(markdown-inline-code-face
-     ((,classTC (:background ,code-block :foreground ,cyan
-                             :box (:line-width 1 :color ,grey1)))
+     ((,classTC (:background ,code-block :foreground ,cyan))
       (t (:foreground ,green))))
    `(markdown-language-keyword-face
      ((,class256 (:foreground ,darkgrey))))
