@@ -68,7 +68,7 @@
        (outline-6 purple)
        (outline-7 comment)
        (outline-8 darkgrey)
-       (code-block "#fafafa"))
+       (code-block "#f7f7f7"))
 
   (custom-theme-set-faces
    'wildcharm-light
