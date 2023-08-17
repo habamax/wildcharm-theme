@@ -473,9 +473,13 @@
    `(org-drawer
      ((,class256 (:foreground ,purple))))
    `(org-code
-     ((,class256 (:foreground ,cyan))))
+     ((,classTC (:background ,code-block :foreground ,cyan
+                             :box (:line-width 1 :color ,grey1)))
+      (t (:foreground ,cyan))))
    `(org-verbatim
-     ((,class256 (:foreground ,magenta))))
+     ((,classTC (:background ,code-block :foreground ,magenta
+                             :box (:line-width 1 :color ,grey1)))
+      (t (:foreground ,magenta))))
    `(org-formula
      ((,class256 (:foreground ,bright-red))))
    `(org-latex-and-related
@@ -692,9 +696,11 @@
    `(markdown-markup-face
      ((,class256 (:foreground ,darkgrey))))
    `(markdown-inline-code-face
-     ((,class256 (:foreground ,green))))
+     ((,classTC (:background ,code-block :foreground ,cyan
+                             :box (:line-width 1 :color ,grey1)))
+      (t (:foreground ,green))))
    `(markdown-language-keyword-face
-     ((,class256 (:foreground ,cyan))))
+     ((,class256 (:foreground ,darkgrey))))
    `(markdown-gfm-checkbox-face
      ((,class256 (:foreground ,darkgrey))))
 
