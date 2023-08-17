@@ -73,7 +73,7 @@
        (outline-6 purple)
        (outline-7 comment)
        (outline-8 darkgrey)
-       (org-block "#1F1F1F"))
+       (code-block "#1F1F1F"))
 
   (custom-theme-set-faces
    'wildcharm
@@ -458,7 +458,7 @@
    `(org-special-keyword
      ((t (:inherit org-meta-line))))
    `(org-block
-     ((,classTC (:background ,org-block :foreground ,fg))
+     ((,classTC (:background ,code-block :foreground ,fg))
       (t (:foreground ,fg))))
    `(org-block-begin-line
      ((t (:inherit org-meta-line))))
@@ -683,7 +683,8 @@
    `(markdown-header-rule-face
      ((,class256 (:foreground ,bright-blue :weight bold))))
    `(markdown-code-face
-     ((,class256 (:foreground ,fg))))
+     ((,classTC (:background ,code-block :foreground ,fg :extend t))
+      (t (:foreground ,fg))))
    `(markdown-list-face
      ((,class256 (:foreground ,bright-yellow))))
    `(markdown-markup-face

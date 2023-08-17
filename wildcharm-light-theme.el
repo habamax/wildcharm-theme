@@ -68,7 +68,7 @@
        (outline-6 purple)
        (outline-7 comment)
        (outline-8 darkgrey)
-       (org-block "#fafafa"))
+       (code-block "#fafafa"))
 
   (custom-theme-set-faces
    'wildcharm-light
@@ -447,7 +447,7 @@
    `(org-special-keyword
      ((t (:inherit org-meta-line))))
    `(org-block
-     ((,classTC (:background ,org-block :foreground ,fg))
+     ((,classTC (:background ,code-block :foreground ,fg))
       (t (:foreground ,fg))))
    `(org-block-begin-line
      ((t (:inherit org-meta-line))))
@@ -672,7 +672,8 @@
    `(markdown-header-rule-face
      ((,class256 (:foreground ,blue :weight bold))))
    `(markdown-code-face
-     ((,class256 (:foreground ,fg))))
+     ((,classTC (:background ,code-block :foreground ,fg :extend t))
+      (t (:foreground ,fg))))
    `(markdown-list-face
      ((,class256 (:foreground ,yellow))))
    `(markdown-markup-face
