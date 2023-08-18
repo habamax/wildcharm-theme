@@ -1183,7 +1183,7 @@
    `(corfu-current
      ((,class256 (:background ,grey1))))
    `(corfu-bar
-     ((,class256 (:background ,grey))))
+     ((,class256 (:background ,non-text))))
    `(corfu-border
      ((,class256 (:background ,grey))))
 
