@@ -103,7 +103,7 @@
    `(homoglyph
      ((,class256 (:inherit 'escape-glyph))))
    `(nobreak-space
-     ((,class256 (:foreground ,red :underline t))))
+     ((,class256 (:inherit 'escape-glyph :underline t))))
    `(nobreak-hyphen
      ((,class256 (:inherit 'escape-glyph))))
    `(mode-line
