@@ -469,6 +469,8 @@
       (t (:foreground ,magenta))))
    `(org-footnote
      ((,class256 (:foreground ,darkgrey))))
+   `(org-ellipsis
+     ((,class256 (:foreground ,yellow))))
    `(org-formula
      ((,class256 (:foreground ,red))))
    `(org-latex-and-related

@@ -482,6 +482,8 @@
      ((,class256 (:foreground ,bright-red))))
    `(org-footnote
      ((,class256 (:foreground ,darkgrey))))
+   `(org-ellipsis
+     ((,class256 (:foreground ,bright-yellow))))
    `(org-latex-and-related
      ((,class256 (:foreground ,yellow))))
    `(org-tag
