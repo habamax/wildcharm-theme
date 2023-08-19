@@ -467,6 +467,8 @@
    `(org-verbatim
      ((,classTC (:background ,code-block :foreground ,magenta :extend t))
       (t (:foreground ,magenta))))
+   `(org-footnote
+     ((,class256 (:foreground ,darkgrey))))
    `(org-formula
      ((,class256 (:foreground ,red))))
    `(org-latex-and-related

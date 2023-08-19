@@ -480,6 +480,8 @@
       (t (:foreground ,magenta))))
    `(org-formula
      ((,class256 (:foreground ,bright-red))))
+   `(org-footnote
+     ((,class256 (:foreground ,darkgrey))))
    `(org-latex-and-related
      ((,class256 (:foreground ,yellow))))
    `(org-tag
