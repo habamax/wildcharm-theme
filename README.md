@@ -4,9 +4,9 @@ Dark and light Emacs themes based on vim-wildcharm.
 
 Should look mostly the same in GUI and TUI (terminal with 256 color support).
 
-![image](https://github.com/habamax/wildcharm-theme/assets/234774/e47c5a49-c673-42d6-b466-a5a6ba36abbb)
+![image](dark)
 
-![image](https://github.com/habamax/wildcharm-theme/assets/234774/3cee61e0-c416-4da5-b5ce-bc4ea747335d)
+![image](light)
 
 
 ## Installation
@@ -87,7 +87,8 @@ or
 | Purple     | `#5F00D7` | ![#5F00D7][29] | Comment        | `#87875F` | ![#87875F][27] |
 | Foreground | `#000000` | ![#000000][0]  | Background     | `#FFFFFF` | ![#FFFFFF][15] |
 
-
+[dark]: https://github.com/habamax/wildcharm-theme/assets/234774/e47c5a49-c673-42d6-b466-a5a6ba36abbb
+[light]: https://github.com/habamax/wildcharm-theme/assets/234774/3cee61e0-c416-4da5-b5ce-bc4ea747335d
 [0]: https://github.com/habamax/wildcharm-theme/assets/234774/1438b0cb-0dc7-483e-91ab-95be90b69bf1
 [1]: https://github.com/habamax/wildcharm-theme/assets/234774/bf362c5e-99f1-4b07-a222-52efe382b3ab
 [2]: https://github.com/habamax/wildcharm-theme/assets/234774/17a1d391-667c-4d79-b55d-627be6c67aa0
