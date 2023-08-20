@@ -4,9 +4,9 @@ Dark and light Emacs themes based on vim-wildcharm.
 
 Should look mostly the same in GUI and TUI (terminal with 256 color support).
 
-![image](dark)
+![image][dark]
 
-![image](light)
+![image][light]
 
 
 ## Installation
