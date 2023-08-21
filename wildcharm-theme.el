@@ -546,6 +546,8 @@
      ((,class256 (:foreground ,darkgrey :weight normal))))
    `(org-table
      ((,class256 (:foreground ,fg))))
+   `(org-mode-line-clock-overrun
+     ((,class256 (:background ,bright-yellow :foreground ,black))))
 
    ;; gnus
    `(gnus-button
