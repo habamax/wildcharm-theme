@@ -1284,6 +1284,15 @@
    `(tuareg-font-lock-operator-face
      ((,class256 (:inherit font-lock-keyword-face))))
 
+   `(which-key-key-face
+     ((,class256 (:inherit help-key-binding))))
+   `(which-key-separator-face
+     ((,class256 (:foreground ,darkgrey))))
+   `(which-key-command-description-face
+     ((,class256 (:inherit default))))
+   `(which-key-group-description-face
+     ((,class256 (:foreground ,magenta))))
+
    ;; tempel
    `(tempel-default
      ((,classTC (:background ,diff-added-bg))
