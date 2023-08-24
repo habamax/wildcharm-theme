@@ -349,7 +349,7 @@
    `(icomplete-first-match
      ((,class256 (:foreground ,bright-green :weight bold))))
    `(icomplete-selected-match
-     ((,class256 (:inherit hl-line))))
+     ((,class256 (:background ,hl-line))))
    `(completions-common-part
      ((,class256 (:foreground ,bright-red :weight bold))))
    `(completions-first-difference
@@ -786,7 +786,7 @@
    `(magit-section-heading-selection
      ((,class256 (:foreground ,yellow))))
    `(magit-section-highlight
-     ((,class256 (:inherit hl-line))))
+     ((,class256 (:background ,hl-line))))
    `(magit-branch-local
      ((,class256 (:foreground ,bright-blue))))
    `(magit-branch-remote
@@ -1136,7 +1136,7 @@
 
    ;; vertico
    `(vertico-current
-     ((,class256 (:inherit hl-line))))
+     ((,class256 (:background ,hl-line))))
 
    ;; orderless
    `(orderless-match-face-0
