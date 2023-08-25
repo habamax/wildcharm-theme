@@ -970,7 +970,7 @@
    `(erc-my-nick-face
      ((,class256 (:foreground ,bright-red :weight bold))))
    `(erc-current-nick-face
-     ((,class256 (:foreground ,bright-red))))
+     ((,class256 (:foreground ,bright-red :weight bold))))
    `(erc-nick-msg-face
      ((,class256 (:foreground ,bright-yellow))))
    `(erc-input-face
