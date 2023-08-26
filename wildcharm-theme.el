@@ -793,6 +793,10 @@
      ((,class256 (:foreground ,bright-green))))
    `(magit-tag
      ((,class256 (:foreground ,yellow))))
+   `(magit-dimmed
+     ((t (:foreground ,darkgrey))))
+   `(magit-hash
+     ((t (:foreground ,darkgrey))))
    `(magit-cherry-equivalent
      ((,class256 (:foreground ,bright-magenta))))
    `(magit-cherry-unmatched
