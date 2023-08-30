@@ -54,7 +54,7 @@
        (hl-line "#3a3a3a")
        (block "#1c1c1c")
        (diff-added-bg "#3f4f3f")(diff-added-bg-tty "#005f00")
-       (diff-refine-added-bg "#3f6f4f")(diff-refine-added-bg-tty "#005f5f")
+       (diff-refine-added-bg "#4a5f4a")(diff-refine-added-bg-tty "#005f5f")
        (diff-added-fg "#afffaf")
        (diff-removed-bg "#4f3f3f")(diff-removed-bg-tty "#5f0000")
        (diff-refine-removed-bg "#6f4f3f")(diff-refine-removed-bg-tty "#870000")
