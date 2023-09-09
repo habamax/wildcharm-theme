@@ -952,6 +952,10 @@
    `(eglot-highlight-symbol-face
      ((,class256 (:background ,match))))
 
+   ;; lsp-mode
+   `(lsp-face-highlight-textual
+     ((,class256 (:background ,match))))
+
    ;; wgrep
    `(wgrep-face
      ((,classTC (:background ,diff-added-bg))
