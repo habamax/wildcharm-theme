@@ -1203,9 +1203,9 @@
    `(company-tooltip-selection
      ((,class256 (:background ,grey1))))
    `(company-tooltip-scrollbar-track
-     ((,class256 (:background ,non-text))))
-   `(company-tooltip-scrollbar-thumb
      ((,class256 (:background ,grey))))
+   `(company-tooltip-scrollbar-thumb
+     ((,class256 (:background ,non-text))))
 
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face
