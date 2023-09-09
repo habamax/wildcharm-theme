@@ -1206,6 +1206,8 @@
      ((,class256 (:background ,grey3))))
    `(company-tooltip-common
      ((,class256 (:inherit completions-common-part))))
+   `(company-tooltip-annotation
+     ((,class256 (:inherit completions-annotations))))
    `(company-tooltip-selection
      ((,class256 (:background ,grey1))))
    `(company-tooltip-scrollbar-track
