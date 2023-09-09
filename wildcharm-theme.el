@@ -1225,6 +1225,8 @@
    ;; company
    `(company-tooltip
      ((,class256 (:background ,grey3))))
+   `(company-tooltip-common
+     ((,class256 (:inherit completions-common-part))))
    `(company-tooltip-selection
      ((,class256 (:background ,grey1))))
    `(company-tooltip-scrollbar-track
