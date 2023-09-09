@@ -1222,6 +1222,16 @@
    `(corfu-border
      ((,class256 (:background ,darkgrey))))
 
+   ;; company
+   `(company-tooltip
+     ((,class256 (:background ,grey3))))
+   `(company-tooltip-selection
+     ((,class256 (:background ,grey1))))
+   `(company-tooltip-scrollbar-track
+     ((,class256 (:background ,non-text))))
+   `(company-tooltip-scrollbar-thumb
+     ((,class256 (:background ,darkgrey))))
+
    ;; rainbow-delimiters
    `(rainbow-delimiters-depth-1-face
      ((,class256 (:foreground ,fg))))
