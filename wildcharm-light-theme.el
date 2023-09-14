@@ -700,11 +700,13 @@
 
    ;; diff
    `(diff-header
-     ((,class256 (:foreground ,blue :weight bold))))
+     ((,class256 (:background ,grey3 :foreground ,blue :weight bold))))
    `(diff-file-header
-     ((,class256 (:foreground ,black))))
+     ((,class256 (:background ,grey3 :foreground ,black))))
    `(diff-hunk-header
      ((,class256 (:foreground ,yellow :weight bold))))
+   `(diff-function
+     ((,class256 (:foreground ,red :weight bold))))
    `(diff-added
      ((,class256 (:background ,diff-added-bg :foreground ,diff-added-fg))))
    `(diff-indicator-added

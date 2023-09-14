@@ -711,11 +711,13 @@
 
    ;; diff
    `(diff-header
-     ((,class256 (:foreground ,bright-blue :weight bold))))
+     ((,class256 (:background ,grey2 :foreground ,bright-blue :weight bold))))
    `(diff-file-header
-     ((,class256 (:foreground ,white))))
+     ((,class256 (:background ,grey2 :foreground ,white))))
    `(diff-hunk-header
      ((,class256 (:foreground ,bright-yellow :weight bold))))
+   `(diff-function
+     ((,class256 (:foreground ,bright-red :weight bold))))
    `(diff-added
      ((,classTC (:background ,diff-added-bg :foreground ,diff-added-fg))
       (t (:background ,diff-added-bg-tty :foreground ,diff-added-fg))))
