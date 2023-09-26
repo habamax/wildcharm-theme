@@ -386,6 +386,8 @@
    ;; message
    `(message-header-name
      ((,class256 (:foreground ,magenta))))
+   `(message-header-newsgroups
+     ((,class256 (:foreground ,black :weight bold))))
    `(message-header-subject
      ((,class256 (:foreground ,black :weight bold))))
    `(message-header-to
