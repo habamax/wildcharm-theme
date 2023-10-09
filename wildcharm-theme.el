@@ -233,43 +233,43 @@
 
    ;; font-lock
    `(font-lock-string-face
-     ((,class256 (:foreground ,bright-green))))
+     ((,class256 (:foreground ,bright-green :weight unspecified :slant unspecified))))
    `(font-lock-comment-face
-     ((,class256 (:foreground ,comment))))
+     ((,class256 (:foreground ,comment :weight unspecified :slant unspecified))))
    `(font-lock-keyword-face
-     ((,class256 (:foreground ,bright-blue))))
+     ((,class256 (:foreground ,bright-blue :weight unspecified :slant unspecified))))
    `(font-lock-preprocessor-face
-     ((,class256 (:foreground ,purple))))
+     ((,class256 (:foreground ,purple :weight unspecified :slant unspecified))))
    `(font-lock-builtin-face
-     ((,class256 (:foreground ,magenta))))
+     ((,class256 (:foreground ,magenta :weight unspecified :slant unspecified))))
    `(font-lock-type-face
-     ((,class256 (:foreground ,bright-yellow))))
+     ((,class256 (:foreground ,bright-yellow :weight unspecified :slant unspecified))))
    `(font-lock-function-name-face
-     ((,class256 (:foreground ,bright-magenta))))
+     ((,class256 (:foreground ,bright-magenta :weight unspecified :slant unspecified))))
    `(font-lock-variable-name-face
-     ((,class256 (:foreground ,bright-cyan))))
+     ((,class256 (:foreground ,bright-cyan :weight unspecified :slant unspecified))))
    `(font-lock-constant-face
-     ((,class256 (:foreground ,bright-red))))
+     ((,class256 (:foreground ,bright-red :weight unspecified :slant unspecified))))
    `(font-lock-warning-face
-     ((,class256 (:foreground ,yellow :weight bold))))
+     ((,class256 (:foreground ,yellow :weight bold :slant unspecified))))
 
    `(font-lock-number-face
-     ((,class256 (:foreground ,bright-red))))
+     ((,class256 (:foreground ,bright-red :weight unspecified :slant unspecified))))
    `(font-lock-escape-face
-     ((,class256 (:foreground ,bright-yellow))))
+     ((,class256 (:foreground ,bright-yellow :weight unspecified :slant unspecified))))
    `(font-lock-function-call-face
-     ((,class256 (:foreground ,magenta))))
+     ((,class256 (:foreground ,magenta :weight unspecified :slant unspecified))))
    `(font-lock-regexp-face
-     ((,class256 (:foreground ,green))))
+     ((,class256 (:foreground ,green :weight unspecified :slant unspecified))))
    `(font-lock-delimiter-face
-     ((,class256 (:foreground ,bright-magenta))))
+     ((,class256 (:foreground ,bright-magenta :weight unspecified :slant unspecified))))
    `(font-lock-property-use-face
-     ((,class256 (:foreground ,cyan))))
+     ((,class256 (:foreground ,cyan :weight unspecified :slant unspecified))))
    `(font-lock-bracket-face
-     ((,class256 (:foreground ,purple))))
+     ((,class256 (:foreground ,purple :weight unspecified :slant unspecified))))
 
    `(elisp-shorthand-font-lock-face
-     ((,class256 (:foreground ,bright-cyan :weight bold))))
+     ((,class256 (:foreground ,bright-cyan :weight bold :slant unspecified))))
 
    ;; isearch
    `(isearch
