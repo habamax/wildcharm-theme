@@ -878,6 +878,11 @@
    `(magit-reflog-cherry-pick
      ((,class256 (:foreground ,green))))
 
+   `(transient-key
+     ((,class256 (:inherit help-key-binding))))
+   `(transient-heading
+     ((,class256 (:inherit magit-section-heading))))
+
    ;; ediff
    `(ediff-current-diff-A
      ((,classTC (:background ,diff-removed-bg))
