@@ -1176,7 +1176,7 @@
 
    ;; embark
    `(embark-keybinding
-     ((,class256 (:foreground ,bright-cyan :weight bold))))
+     ((,class256 (:inherit help-key-binding))))
 
    ;; notmuch
    `(notmuch-message-summary-face
