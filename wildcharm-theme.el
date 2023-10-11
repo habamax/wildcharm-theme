@@ -272,7 +272,14 @@
      ((,class256 (:foreground ,bright-cyan :weight bold :slant unspecified))))
 
    `(perl-non-scalar-variable
-     ((t (:inherit font-lock-variable-name-face))))
+     ((,class256 (:inherit font-lock-variable-name-face))))
+
+   `(cperl-nonoverridable-face
+     ((,class256 (:inherit default))))
+   `(cperl-hash-face
+     ((,class256 (:inherit font-lock-variable-name-face))))
+   `(cperl-array-face
+     ((,class256 (:inherit font-lock-variable-name-face))))
 
    ;; isearch
    `(isearch
