@@ -473,11 +473,9 @@
      ((,classTC (:background ,code-block :foreground ,fg :extend t))
       (t (:foreground ,fg))))
    `(org-block-begin-line
-     ((,classTC (:background ,code-block :foreground ,darkgrey :extend t))
-      (t (:foreground ,darkgrey))))
+     ((t (:background unspecified :foreground ,darkgrey))))
    `(org-block-end-line
-     ((,classTC (:background ,code-block :foreground ,darkgrey :extend t))
-      (t (:foreground ,darkgrey))))
+     ((t (:background unspecified :foreground ,darkgrey))))
    `(org-document-title
      ((,class256 (:foreground ,white :weight bold))))
    `(org-document-info
