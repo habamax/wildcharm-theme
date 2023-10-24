@@ -3,7 +3,7 @@
 ;; Author: Maxim Kim <habamax@gmail.com>
 ;; URL: https://github.com/habamax/wildcharm-theme
 ;; Package-Requires: ((emacs "24.1"))
-;; Package-Version: 0.6
+;; Package-Version: 0.7
 
 ;; This program is free software; you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published by
@@ -73,6 +73,12 @@
        (outline-6 "#af875f")
        (outline-7 "#5fafd7")
        (outline-8 darkgrey)
+       (hi-yellow "#5f5f00")
+       (hi-pink "#005f87")
+       (hi-blue "#000087")
+       (hi-green "#005f00")
+       (hi-salmon "#875f00")
+       (hi-aquamarine "#005f5f")
        (code-block "#1F1F1F"))
 
   (custom-theme-set-faces
@@ -281,7 +287,7 @@
    `(cperl-array-face
      ((,class256 (:inherit font-lock-variable-name-face))))
 
-   ;; isearch
+   ;; isearch & search
    `(isearch
      ((,class256 (:background ,black :foreground ,bright-yellow :inverse-video t))))
    `(isearch-group-1
@@ -293,6 +299,24 @@
    `(isearch-fail
      ((,classTC (:background ,diff-removed-bg :foreground ,diff-removed-fg))
       (t (:background ,diff-removed-bg-tty :foreground ,diff-removed-fg))))
+   `(hi-yellow
+     ((,classTC (:background ,hi-yellow :foreground unspecified :inverse-video nil))))
+   `(hi-pink
+     ((,classTC (:background ,hi-pink :foreground unspecified :inverse-video nil))))
+   `(hi-blue
+     ((,classTC (:background ,hi-blue :foreground unspecified :inverse-video nil))))
+   `(hi-green
+     ((,classTC (:background ,hi-green :foreground unspecified :inverse-video nil))))
+   `(hi-salmon
+     ((,classTC (:background ,hi-salmon :foreground unspecified :inverse-video nil))))
+   `(hi-aquamarine
+     ((,classTC (:background ,hi-aquamarine :foreground unspecified :inverse-video nil))))
+   `(hi-red-b
+     ((,classTC (:background unspecified :foreground ,red :weight bold))))
+   `(hi-green-b
+     ((,classTC (:background unspecified :foreground ,green :weight bold))))
+   `(hi-blue-b
+     ((,classTC (:background unspecified :foreground ,blue :weight bold))))
 
    ;; replace.el
    `(match
