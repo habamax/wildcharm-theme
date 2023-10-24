@@ -70,7 +70,7 @@
        (outline-8 darkgrey)
        (hi-yellow "#ffffd7")
        (hi-pink "#ffafd7")
-       (hi-blue "#d7d7ff")
+       (hi-blue "#afd7ff")
        (hi-green "#d7ffd7")
        (hi-salmon "#ffd7af")
        (hi-aquamarine "#d7ffff")
