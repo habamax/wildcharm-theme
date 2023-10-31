@@ -68,7 +68,7 @@
        (outline-6 "#af875f")
        (outline-7 "#005f87")
        (outline-8 darkgrey)
-       (hi-yellow "#ffffd7")
+       (hi-yellow "#ffffaf")
        (hi-pink "#ffafd7")
        (hi-blue "#afd7ff")
        (hi-green "#d7ffd7")
