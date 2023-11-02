@@ -45,7 +45,7 @@
        (grey "#d0d0d0")(white "#ffffff")
        (purple "#875fff")(comment "#87875f")
        (yellow1 "#d7af5f")(yellow2 "#ffd75f")
-       (grey1 "#303030")(grey2 "#262626")(grey3 "#1c1c1c")
+       (grey1 "#3a3a3a")(grey2 "#262626")
        (non-text "#585858")
        (match-paren "#ff00af")(match "#5f005f")
        (mode-line-active "#444444")(mode-line-inactive "#303030")
@@ -850,7 +850,7 @@
    `(magit-diff-context
      ((t (:foreground ,fg))))
    `(magit-diff-context-highlight
-     ((t (:background ,grey3))))
+     ((t (:background ,grey2))))
    `(magit-diff-added
      ((t (:inherit 'diff-added))))
    `(magit-diff-added-highlight
@@ -1259,7 +1259,7 @@
 
    ;; corfu
    `(corfu-default
-     ((,class256 (:background ,grey3))))
+     ((,class256 (:background ,grey2))))
    `(corfu-current
      ((,class256 (:background ,grey1))))
    `(corfu-bar
@@ -1269,7 +1269,7 @@
 
    ;; company
    `(company-tooltip
-     ((,class256 (:background ,grey3))))
+     ((,class256 (:background ,grey2))))
    `(company-tooltip-common
      ((,class256 (:inherit completions-common-part))))
    `(company-tooltip-annotation
