@@ -317,7 +317,7 @@
    `(hl-line
      ((,class256 (:background ,hl-line :foreground unspecified))))
 
-   ;; widget
+   ;; customize & widget
    `(custom-button
      ((,class256 (:background ,grey1 :foreground ,fg :extend t
                               :box (:line-width (2 . 2) :style released-button)))))
@@ -331,6 +331,12 @@
      ((,class256 (:foreground ,green))))
    `(custom-group-tag
      ((,class256 (:foreground ,bright-magenta :weight bold))))
+   `(custom-variable-tag
+     ((,class256 (:background unspecified :foreground unspecified :weight bold))))
+   `(custom-comment
+     ((,class256 (:background unspecified :foreground ,comment :weight unspecified))))
+   `(custom-comment-tag
+     ((,class256 (:background unspecified :foreground unspecified :weight unspecified))))
    `(widget-field
      ((,class256 (:background ,grey1 :foreground ,fg :extend t))))
    `(widget-inactive
@@ -339,10 +345,6 @@
      ((,class256 (:foreground ,bright-red))))
    `(widget-documentation
      ((,class256 (:foreground ,green))))
-
-   ;; customize
-   `(custom-variable-tag
-     ((,class256 (:weight bold))))
 
    ;; shortdoc
    `(shortdoc-heading
