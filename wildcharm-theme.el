@@ -1284,6 +1284,8 @@
      ((,class256 (:background ,darkgrey))))
 
    ;; rainbow-delimiters
+   `(rainbow-delimiters-base-error-face
+     ((,class256 (:background ,grey2 :foreground ,red :weight bold))))
    `(rainbow-delimiters-depth-1-face
      ((,class256 (:foreground ,fg))))
    `(rainbow-delimiters-depth-2-face
