@@ -162,7 +162,7 @@
                               :box (:line-width 1 :color ,non-text)))))
    `(tab-bar-tab-inactive
      ((t (:background unspecified :foreground ,grey
-                      :box (:line-width 1 :color ,non-text)))))
+                      :box (:line-width 1 :color ,mode-line-active)))))
    `(tab-line
      ((,class256 (:background ,mode-line-inactive :foreground ,darkgrey))))
    `(tab-line-tab
