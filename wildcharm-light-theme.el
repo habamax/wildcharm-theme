@@ -153,8 +153,8 @@
      ((,class256 (:background ,mode-line-inactive :foreground ,fg :weight bold
                               :box (:style released-button)))))
    `(tab-bar-tab-inactive
-     ((t (:background ,header-line :foreground ,darkergrey
-                      :box (:style released-button)))))
+     ((,class256 (:background ,header-line :foreground ,darkergrey
+                              :box (:style released-button)))))
    `(tab-line
      ((,class256 (:background ,mode-line-inactive :foreground ,darkgrey))))
    `(tab-line-tab
