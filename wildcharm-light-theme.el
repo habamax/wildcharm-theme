@@ -34,7 +34,7 @@
        (class256 '((class color) (min-colors 256)))
        (classTTY '((type tty)))
        (fg "#000000")(bg "#ffffff")
-       (black "#000000")(darkgrey "#808080")
+       (black "#000000")(darkgrey "#808080")(darkergrey "#5f5f5f")
        (red "#af0000")(bright-red "#d70000")
        (green "#008700")(bright-green "#5faf5f")
        (yellow "#af5f00")(bright-yellow "#d78700")
@@ -148,13 +148,13 @@
      ((t (:background ,fg))))
    ;; -tool-bar
    `(tab-bar
-     ((,class256 (:background ,mode-line-inactive :foreground ,darkgrey))))
+     ((,class256 (:background ,header-line :foreground ,fg))))
    `(tab-bar-tab
-     ((,class256 (:background ,mode-line-active :foreground ,black :weight bold
-                              :box (:line-width 1 :color ,non-text)))))
+     ((,class256 (:background ,mode-line-inactive :foreground ,fg :weight bold
+                      :box (:style released-button)))))
    `(tab-bar-tab-inactive
-     ((t (:background unspecified :foreground ,fg
-                      :box (:line-width 1 :color ,mode-line-active)))))
+     ((t (:background ,header-line :foreground ,darkergrey
+                      :box (:style released-button)))))
    `(tab-line
      ((,class256 (:background ,mode-line-inactive :foreground ,darkgrey))))
    `(tab-line-tab
