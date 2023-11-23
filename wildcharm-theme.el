@@ -1330,6 +1330,8 @@
    ;; sh
    `(sh-quoted-exec
      ((,class256 (:foreground ,bright-magenta))))
+   `(sh-heredoc
+     ((,class256 (:foreground ,green))))
 
    ;; tuareg
    `(tuareg-font-lock-error-face
