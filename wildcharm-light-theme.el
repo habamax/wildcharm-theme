@@ -1008,7 +1008,7 @@
    `(erc-button
      ((,class256 (:background unspecified :foreground ,blue :underline t))))
    `(erc-prompt-face
-     ((,class256 (:background unspecified :foreground ,bright-magenta :weight bold))))
+     ((,class256 (:background unspecified :foreground ,bright-magenta :weight bold :inverse-video t))))
    `(erc-action-face
      ((,class256 (:background unspecified :foreground ,comment))))
    `(fg:erc-face0
