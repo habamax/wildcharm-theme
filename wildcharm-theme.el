@@ -740,6 +740,8 @@
    `(markdown-inline-code-face
      ((,classTC (:background ,code-block :foreground ,cyan))
       (t (:foreground ,green))))
+   `(markdown-line-break-face
+     ((,class256 (:foreground ,bright-red :weight unspecified :slant unspecified))))
    `(markdown-language-keyword-face
      ((,class256 (:foreground ,darkgrey))))
    `(markdown-gfm-checkbox-face
