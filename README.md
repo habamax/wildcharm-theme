@@ -119,11 +119,3 @@ or
 [27]: https://github.com/habamax/wildcharm-theme/assets/234774/1c16de35-bba3-4685-ae98-3f362ee8ccdf
 [28]: https://github.com/habamax/wildcharm-theme/assets/234774/03ee82dd-0904-4a18-8b6f-1c51b9a08786
 [29]: https://github.com/habamax/wildcharm-theme/assets/234774/55e58edc-20e4-4ea5-9c40-a68e1132e3d8
-
-## Other themes
-
-- [sandcastle-theme][sandcastle]: light mid(low) contrast theme.
-- [forget-me-not-theme][forget-me-not]: a tribute to obsoleted light-blue theme.
-
-[sandcastle]: https://github.com/habamax/sandcastle-theme
-[forget-me-not]: https://github.com/habamax/forget-me-not-theme
