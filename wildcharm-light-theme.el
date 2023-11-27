@@ -891,6 +891,12 @@
 
    `(transient-key
      ((,class256 (:inherit help-key-binding))))
+   `(transient-key-stay
+     ((,class256 (:foreground ,green :weight bold))))
+   `(transient-key-exit
+     ((,class256 (:foreground ,magenta :weight bold))))
+   `(transient-key-return
+     ((,class256 (:foreground ,blue :weight bold))))
    `(transient-heading
      ((,class256 (:inherit magit-section-heading))))
 
